@@ -18,9 +18,9 @@ email: '23phuc.nh@vinuni.edu.vn'
 description: "I'm a EE Sophomore and  URA @VinUniversity."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://phucngvinuni.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-# twitter_username: 'jamigibbs'
-# github_username: 'jamigibbs'
-# medium_username: 'blog.jamigibbs.com'
+twitter_username: 'jamigibbs'
+github_username: 'jamigibbs'
+medium_username: 'blog.jamigibbs.com'
 
 # Build settings
 markdown: kramdown
@@ -94,7 +94,7 @@ pagination:
 ### Phantom settings
 footer_text: ''
 admin_name: 'Phuc Nguyen'
-# google_analytics: "UA-9999999-99" # Update with your own tracking ID
+google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
 #### Phantom Navigation menu
