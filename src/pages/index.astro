@@ -1,8 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+import HorizontalCardPublication from "../components/HorizontalCardPublic.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
+import { Code } from "astro:components";
+import { Image } from "astro:assets";
 
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
@@ -12,52 +15,79 @@ const last_posts = posts.slice(0, 3);
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
+    <div class="text-5xl font-bold">I'm Nguyen Hong Phuc</div>
+    <div class="text-3xl py-3 font-bold">An ECE student at VinUniversity</div>
     <div class="py-2">
       <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
+
+        <div tabindex="0" class="collapse my-2 collapse-arrow rounded-lg border border-current">
+          <input type="checkbox" />
+          <div class="collapse-title text-lg font-bold">About me</div>
+          <div class="collapse-content">
+            <p>I am the people who love do reseacrh and learn new thing. My current work is about Smart Aquaculture using AI, Semantic Communication, IoT, Optimization</p>
+          </div>
+        </div>
+
+        <div tabindex="0" class="collapse my-2 collapse-arrow rounded-lg border border-current">
+          <input type="checkbox" />
+          <div class="collapse-title text-lg font-bold">Other interests</div>
+          <div class="collapse-content">
+            <div class="mt-4 leading-normal text-md ">Outside of research, I enjoy reading and learning about sciences, philosophy, and visual arts. I'm a hobbyist photographer, with a particular interest in still life, pets, and street photography.</div>
+            <div class="mt-4 leading-normal text-md ">I have two cats, <span class="tooltip" data-tip="Cam (as in camera 📸, but is also 🇻🇳 for orange 🍊) and Chanh (🇻🇳 for lemon 🍋). It's a quirky double word play which was absolutely not intentional.">Cam and Chanh</span>, and you can find them <a class="btn btn-outline px-1 min-h-0 h-6 p-0" target="_blank" href="https://www.instagram.com/cameowra.roll/">here</a>.</div>
+            <Image class="mt-4 mask rounded-3xl" format="webp" width={650} height={350} src="/camchanh.jpg" alt="Cam (right) & Chanh (left)" />
+            <div class="mt-4 leading-normal text-md ">When I have the chance, you'll probably find me underwater! I love scuba diving and freediving (fun fact: I got to see a whaleshark on my second ever dive)! I'm also enthusiastic for casual badminton matches here and there (though I'm not very good). Archery is next on my adventure list! </div>
+          </div>
+        </div>
+
+        <div tabindex="0" class="collapse my-2 collapse-arrow rounded-lg border border-current">
+          <input type="checkbox" />
+          <div class="collapse-title text-lg font-bold">Contact</div>
+          <div class="collapse-content">
+            <p class="py-2">
+              You can email me at:
+              <ul>
+                <li>• <a class="link" href="mailto:len@cs.toronto.edu">len@cs.toronto.edu</a>/<a class="link" href="mailto:len@cs.toronto.edu">len@dgp.toronto.edu</a> for work-related enquiries, or</li>
+                <li>• <a class="link" href="mailto:hatrinhanluong@gmail.com">hatrinhanluong@gmail.com</a> for other matters.</li>
+              </ul>
+            </p>
+            <p class="py-2 mt-2">
+              You can find me at <b>BA 7222</b> most of the time:
+            </p>
+            <p>
+              <p><b>Bahen Centre for Information Technology</b></p>
+              <p>Department of Computer Science</p>
+              <p>University of Toronto</p>
+              <p>Room 7222, 7th Floor</p>
+              <p>40 St. George Street</p>
+              <p>Toronto, ON M5S 2E4</p>
+            </p>
+
+          </div>
+        </div>
+
+    
       </text>
     </div>
-    <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
-      </a>
+    <div class="mt-2">
+      <a class="btn btn-outline" href="https://www.linkedin.com/in/phuc-nguyen-a0150a26b/" target="_blank"> Let's connect!</a>
+      <a class="btn btn-outline" href="/projects"> My Project</a>
+      <a class="btn btn-outline" href="mailto:23phuc.nh@vinuni.edu.vn" target="_blank"> Email me</a>
+      <!-- <a href="https://twitter.com/len_luong09" target="_blank" class="btn btn-outline ml-5">
+        Let's connect!
+      </a> -->
     </div>
   </div>
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
-  </div>
+    <div class="text-3xl w-full font-bold mb-2">News</div>
 
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+    <ul class="list-disc mx-6 mb-10 grid gap-2">
+      <li>
+        <b>[14/01/25]</b> My first journal paper <a target="_blank" href="https://ieeexplore.ieee.org/document/10841387" class="font-medium underline hover:no-underline"><b>Energy-Aware Resource Allocation for Energy Harvesting Powered Wireless Sensor Nodes</b></a> has been published on IEEE Communication Lettes!
+      </li>
+      <li>
+        <b>[20/05/23]</b> I got accepted to VinUniversity with 100% scholarship! I will be studying Electrical and Computer Engineering starting from Fall 2023.
+      </li>
+    </ul>
   </div>
 
   {
@@ -75,4 +105,19 @@ const last_posts = posts.slice(0, 3);
       </>
     ))
   }
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10"><a href="/projects">Publications</a></div>
+  </div>
+
+  <HorizontalCardPublication
+    badge="IEEE Communication Letters"
+    title="Energy-Aware Resource Allocation for Energy Harvesting Powered Wireless Sensor Nodes"
+    authors={["Ngo Minh Ngoc", "Nguyen Thanh Trung", "Nguyen Hong Phuc", "Nguyen Van Dinh"]}
+    author_index={1}
+    img="public\VinUniLogo.png"
+    abstract="Low harvested energy poses a significant challenge to sustaining continuous communication in energy harvesting (EH)-powered wireless sensor networks. This is mainly due to intermittent and limited power availability from radio frequency signals. In this paper, we introduce a novel energy-aware resource allocation problem aimed at enabling the asynchronous accumulate-then-transmit protocol, offering an alternative to the extensively studied harvest-then-transmit approach. Specifically, we jointly optimize power allocation and time fraction dedicated to EH to maximize the average long-term system throughput, accounting for both data and energy queue lengths. By leveraging inner approximation and network utility maximization techniques, we develop a simple yet efficient iterative algorithm that guarantees at least a local optimum and achieves long-term utility improvement. Numerical results highlight the proposed approach’s effectiveness in terms of both queue length and sustained system throughput."
+    url="https://ieeexplore.ieee.org/document/10841387"
+  />
+  
 </BaseLayout>
