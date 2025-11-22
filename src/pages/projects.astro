@@ -5,47 +5,42 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
 
   <HorizontalCard
-    title="Convolutional Neural Network (CNN) from scratch in C++"
+    title="Smart Aquaculture System"
     img="/post_img.webp"
-    desc="The project demonstrates training on the MNIST dataset, handling forward and backward passes, gradient updates, and basic optimization without relying on external machine learning libraries."
+    desc="Integrating IoT and AI technologies for sustainable resource management in alignment with Vingroup’s smart city initiatives. Features Computer Vision algorithms for fish tracking, underwater size estimation, and image segmentation."
+    url="#"
+    badge="In-Progress"
+    tags={["IoT", "AI", "Computer Vision"]}
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="WinCart"
+    img="/post_img.webp"
+    desc="Engineered an AI-powered smart shopping assistant enabling hands-free experiences. Implemented Real-Time Positioning via ML on Silicon Labs hardware and a full-stack Edge AI pipeline."
+    url="#"
+    badge="Completed"
+    tags={["Edge AI", "Raspberry Pi", "Silicon Labs"]}
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Neural Network From Scratch"
+    img="/post_img.webp"
+    desc="Implemented a Convolutional Neural Network (CNN) in C++ and a Feedforward NN in C for MNIST classification without external ML libraries. Demonstrated deep understanding of backpropagation, matrix operations, and optimization algorithms."
     url="https://github.com/phucngvinuni/CNNfrom_scratchcpp"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <!-- <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
-
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    badge="Completed"
+    tags={["C++", "C", "Mathematics"]}
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
+    title="AquaSense"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="Designed a water quality monitoring system (pH, Temp, NH3, NO2, DO) with real-time mobile/web alerts."
+    url="https://github.com/korobn0608/aquasense"
+    badge="Completed"
+    tags={["Embedded Systems", "Arduino", "Mobile App"]}
   />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  /> -->
 </BaseLayout>
