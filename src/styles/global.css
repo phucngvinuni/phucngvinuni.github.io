@@ -1,3 +1,39 @@
+/* Linear Style Enhancements */
+body {
+    background-image: radial-gradient(circle at 50% 0%, #1c1d21 0%, #08090a 60%);
+    background-attachment: fixed;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #08090a; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2d2f36; 
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5e6ad2; 
+}
+
+/* Subtle border for cards to pop */
+.card, .collapse {
+    border: 1px solid #1c1d21;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Sidebar border */
+.drawer-side > aside {
+    border-right: 1px solid #1c1d21;
+}
+
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
