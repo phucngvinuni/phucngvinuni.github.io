@@ -2,7 +2,7 @@
 title: "From Words to Pixels: A Deep Dive into Transformers and Vision Transformers"
 description: "A comprehensive technical guide to the Transformer architecture (Attention Is All You Need) and Vision Transformer (ViT), covering scaled dot-product attention, multi-head attention, positional encodings, patch embeddings, and how a single architecture unifies NLP and computer vision."
 pubDate: "Feb 21 2026"
-heroImage: "/post_img.webp"
+heroImage: "/transformer-vit-thumb.svg"
 badge: "Deep Learning"
 tags: ["Transformers", "ViT", "Deep Learning", "Computer Vision", "Attention Mechanism", "NLP"]
 ---
