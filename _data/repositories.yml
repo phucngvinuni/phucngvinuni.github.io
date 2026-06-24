@@ -1,0 +1,9 @@
+github_users:
+  - phucngvinuni
+
+repo_description_lines_max: 2
+
+github_repos:
+  - phucngvinuni/CNNfrom_scratchcpp
+  - phucngvinuni/NeuralNetworkCppfromScratch
+  - korobn0608/aquasense

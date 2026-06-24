@@ -1,0 +1,257 @@
+{
+  "basics": {
+    "name": "Nguyen Hong Phuc",
+    "label": "BSc ECE Student & AI Researcher",
+    "image": "",
+    "email": "23phuc.nh@vinuni.edu.vn",
+    "phone": "+84 326 060 805",
+    "url": "https://phucngvinuni.github.io/",
+    "summary": "Electrical and Computer Engineering student at VinUniversity specializing in AI, machine learning, and signal processing. Research interests include wireless communications, semantic communication, energy harvesting, and embedded AI systems.",
+    "location": {
+      "city": "Ha Noi",
+      "countryCode": "VN",
+      "region": "Vietnam"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "phucngvinuni",
+        "url": "https://github.com/phucngvinuni"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "phuc-nguyen-a0150a26b",
+        "url": "https://www.linkedin.com/in/phuc-nguyen-a0150a26b/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Intelligence, Computing and Communication Lab (ICCL), VinUniversity",
+      "position": "Undergraduate Research Assistant",
+      "url": "https://vinuni.edu.vn",
+      "startDate": "2023-10-01",
+      "endDate": "",
+      "summary": "Supervised by Assoc. Prof. Nguyen Van Dinh.",
+      "highlights": [
+        "Investigated Open RAN architecture, 5G networks, and Task-Oriented Semantic Communication.",
+        "Developed multi-modality AI models for smart aquaculture (computer vision, fish tracking, underwater size estimation, image segmentation).",
+        "Exploring Diffusion Models for enhanced data generation and signal processing applications."
+      ]
+    },
+    {
+      "name": "FPT Software",
+      "position": "Project Intern (Top 20 Finalist — IoT Challenge)",
+      "url": "https://fptsoftware.com",
+      "startDate": "2025-05-01",
+      "endDate": "2025-09-01",
+      "summary": "",
+      "highlights": [
+        "Deployed quantized LLMs on Raspberry Pi to create a conversational conservation chatbot.",
+        "Implemented A* pathfinding algorithms for autonomous navigation optimization.",
+        "Engineered a full-stack solution (Frontend/Backend) for real-time shopper tracking and route optimization."
+      ]
+    },
+    {
+      "name": "WorldQuant",
+      "position": "Research Consultant",
+      "url": "https://worldquant.com",
+      "startDate": "2024-09-01",
+      "endDate": "2025-05-01",
+      "summary": "",
+      "highlights": [
+        "Developed predictive mathematical models (Alphas) to forecast financial instrument price movements.",
+        "Utilized statistical analysis and historical data to optimize trading signals."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "VinUniversity",
+      "location": "Ha Noi, Vietnam",
+      "url": "https://vinuni.edu.vn",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2023-10-01",
+      "endDate": "2027-06-01",
+      "score": "3.72/4.00",
+      "courses": [
+        "Rank 1 in ECE Cohort 4",
+        "2× President's List (AY 23–25)",
+        "Dean's List (All Semesters)",
+        "100% Talent Scholarship (2023–2027)"
+      ]
+    },
+    {
+      "institution": "Bac Ninh High School for the Gifted",
+      "location": "Bac Ninh, Vietnam",
+      "area": "Physics Major",
+      "studyType": "High School",
+      "startDate": "2020-08-01",
+      "endDate": "2023-05-01",
+      "score": "9.6/10",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Finalist — 2025 Quantum Global Industry Challenge (Connected DMV)",
+      "date": "2025-01-01",
+      "awarder": "Quantum Global Industry"
+    },
+    {
+      "title": "Finalist — IoT Challenge 2025",
+      "date": "2025-01-01",
+      "awarder": "FPT Software"
+    },
+    {
+      "title": "Silver Medal — The University Physics Competition 2024",
+      "date": "2024-11-01",
+      "awarder": "University Physics Competition"
+    },
+    {
+      "title": "Gold Medal — WorldQuant Challenge",
+      "date": "2024-01-01",
+      "awarder": "WorldQuant"
+    },
+    {
+      "title": "2nd Prize — National Physics Olympiad",
+      "date": "2023-01-01",
+      "awarder": "Ministry of Education and Training, Vietnam"
+    },
+    {
+      "title": "5th Place Worldwide — Thomas Jefferson Physics Olympiad",
+      "date": "2023-01-01",
+      "awarder": "Thomas Jefferson High School"
+    },
+    {
+      "title": "Gold Medal — High School Olympiad",
+      "date": "2022-01-01",
+      "awarder": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Digital Signal Processing",
+      "issuer": "EPFL (Coursera)",
+      "icon": "fa-solid fa-signal"
+    },
+    {
+      "name": "Neural Networks and Deep Learning",
+      "issuer": "DeepLearning.AI",
+      "icon": "fa-solid fa-brain"
+    },
+    {
+      "name": "Wireless Communications",
+      "issuer": "Yonsei University (Coursera)",
+      "icon": "fa-solid fa-wifi"
+    },
+    {
+      "name": "Open RAN 101",
+      "issuer": "VinUniversity",
+      "icon": "fa-solid fa-tower-broadcast"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Energy-Aware Resource Allocation for Energy Harvesting Powered Wireless Sensor Nodes",
+      "publisher": "IEEE Communications Letters",
+      "releaseDate": "2025-03-01",
+      "url": "https://ieeexplore.ieee.org/document/10841387",
+      "summary": "Introduced a novel energy-aware resource allocation framework enabling the asynchronous accumulate-then-transmit protocol for EH-powered WSNs. Jointly optimizes power allocation and EH time fraction to maximize long-term throughput."
+    },
+    {
+      "name": "A Digital Healthcare Platform for Cardiovascular Disease Management",
+      "publisher": "Open Innovation Conference Proceedings",
+      "releaseDate": "2024-10-01",
+      "summary": "Architecture, technology integration, and deployment of a digital healthcare platform in Vietnam."
+    },
+    {
+      "name": "Low-Cost Triboelectric Nanogenerator for Wind Energy Harvesting in Urban Areas",
+      "publisher": "Open Innovation Conference Proceedings",
+      "releaseDate": "2024-10-01",
+      "summary": "Design and evaluation of a low-cost TENG for sustainable wind energy harvesting in urban environments."
+    },
+    {
+      "name": "Sustainable Smart Mariculture System: IoT-Based Water Quality Monitoring",
+      "publisher": "Open Innovation Conference Proceedings",
+      "releaseDate": "2024-10-01",
+      "summary": "IoT-based water quality monitoring and pollution reduction system for smart aquaculture."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C/C++", "Verilog", "MATLAB", "LaTeX"]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "level": "Advanced",
+      "icon": "fa-solid fa-layer-group",
+      "keywords": ["PyTorch", "TensorFlow", "Scikit-learn", "Pandas", "NumPy", "OpenCV", "PennyLane", "Qiskit"]
+    },
+    {
+      "name": "Tools & Platforms",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-wrench",
+      "keywords": ["Docker", "Git", "Vivado", "Altium", "PSpice", "CVX", "Arduino", "Raspberry Pi", "Linux"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Vietnamese",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Working proficiency",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research",
+      "icon": "fa-solid fa-microscope",
+      "keywords": [
+        "Wireless Communications",
+        "Semantic Communication",
+        "Energy Harvesting",
+        "Computer Vision",
+        "Generative Models"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Smart Aquaculture System (AquaSense / AquaSC)",
+      "summary": "IoT and AI system for sustainable resource management in aquaculture. Integrates computer vision, water quality sensors, and semantic communication.",
+      "highlights": ["Computer Vision", "IoT", "Semantic Communication"],
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "url": "https://github.com/korobn0608/aquasense"
+    },
+    {
+      "name": "WinCart",
+      "summary": "AI-powered smart shopping assistant enabling hands-free experiences with real-time positioning via ML on Silicon Labs hardware.",
+      "highlights": ["Edge AI", "Raspberry Pi", "Silicon Labs"],
+      "startDate": "2025-01-01",
+      "endDate": "2025-06-01"
+    },
+    {
+      "name": "Neural Network From Scratch",
+      "summary": "Implemented a CNN in C++ and a feedforward NN in C for MNIST classification without external ML libraries.",
+      "highlights": ["C++", "Deep Learning", "MNIST"],
+      "startDate": "2024-01-01",
+      "endDate": "2024-06-01",
+      "url": "https://github.com/phucngvinuni/CNNfrom_scratchcpp"
+    }
+  ]
+}
