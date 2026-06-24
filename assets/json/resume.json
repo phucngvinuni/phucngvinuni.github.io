@@ -6,7 +6,7 @@
     "email": "23phuc.nh@vinuni.edu.vn",
     "phone": "+84 326 060 805",
     "url": "https://phucngvinuni.github.io/",
-    "summary": "Electrical and Computer Engineering student at VinUniversity specializing in AI, machine learning, and signal processing. Research interests include wireless communications, semantic communication, energy harvesting, and embedded AI systems.",
+    "summary": "Electrical and Computer Engineering student at VinUniversity specializing in AI, machine learning, and signal processing. Research at ICCL Lab (VinUni & Trinity College Dublin) on semantic communication, aquaculture AI, and embedded systems. $3,500 Student Research Grant recipient.",
     "location": {
       "city": "Ha Noi",
       "countryCode": "VN",
@@ -27,7 +27,7 @@
   },
   "work": [
     {
-      "name": "Intelligence, Computing and Communication Lab (ICCL), VinUniversity",
+      "name": "Intelligence, Computing and Communication Lab (ICCL), VinUniversity & Trinity College Dublin",
       "position": "Undergraduate Research Assistant",
       "url": "https://vinuni.edu.vn",
       "startDate": "2023-10-01",
@@ -48,8 +48,7 @@
       "summary": "",
       "highlights": [
         "Deployed quantized LLMs on Raspberry Pi to create a conversational conservation chatbot.",
-        "Implemented A* pathfinding algorithms for autonomous navigation optimization.",
-        "Engineered a full-stack solution (Frontend/Backend) for real-time shopper tracking and route optimization."
+        "Engineered a full-stack solution (Frontend/Backend) for real-time shopper tracking and route optimization via BLE localization."
       ]
     },
     {
@@ -74,7 +73,7 @@
       "studyType": "Bachelor of Science",
       "startDate": "2023-10-01",
       "endDate": "2027-06-01",
-      "score": "3.72/4.00",
+      "score": "3.80/4.00",
       "courses": [
         "Rank 1 in ECE Cohort 4",
         "2× President's List (AY 23–25)",
@@ -94,6 +93,16 @@
     }
   ],
   "awards": [
+    {
+      "title": "Australia-Vietnam Strategic Technologies Scholarship",
+      "date": "2025-06-01",
+      "awarder": ""
+    },
+    {
+      "title": "Best Poster Award — Open Innovation Conference 2025",
+      "date": "2025-04-01",
+      "awarder": "VinUniversity"
+    },
     {
       "title": "Finalist — 2025 Quantum Global Industry Challenge (Connected DMV)",
       "date": "2025-01-01",
@@ -150,33 +159,52 @@
       "name": "Open RAN 101",
       "issuer": "VinUniversity",
       "icon": "fa-solid fa-tower-broadcast"
+    },
+    {
+      "name": "Introduction to Microelectronics",
+      "issuer": "VinUniversity",
+      "icon": "fa-solid fa-microchip"
     }
   ],
   "publications": [
+    {
+      "name": "AquaSC: Task-Oriented Semantic Communication for Efficient and Intelligent Aquaculture IoT Systems",
+      "publisher": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+      "releaseDate": "2025-10-01",
+      "summary": "Under review. Task-oriented semantic communication framework for aquaculture IoT systems."
+    },
+    {
+      "name": "AquaDeHi: Detached Hierarchical Multi-Task Learning with Learnable Prototypes for Fine-Grained Aquatic Species Recognition",
+      "publisher": "IEEE Transactions on Multimedia",
+      "releaseDate": "2026-04-01",
+      "summary": "Under review. Fine-grained aquatic species recognition via detached hierarchical multi-task learning."
+    },
+    {
+      "name": "From Monitoring to Action: A Comprehensive Survey of Autonomous Decision-Making in Smart Aquaculture Systems",
+      "publisher": "Computers and Electronics in Agriculture",
+      "releaseDate": "2026-04-01",
+      "url": "https://doi.org/10.13140/RG.2.2.24130.95688",
+      "summary": "Under review. Comprehensive survey of autonomous decision-making for smart aquaculture."
+    },
     {
       "name": "Energy-Aware Resource Allocation for Energy Harvesting Powered Wireless Sensor Nodes",
       "publisher": "IEEE Communications Letters",
       "releaseDate": "2025-03-01",
       "url": "https://ieeexplore.ieee.org/document/10841387",
-      "summary": "Introduced a novel energy-aware resource allocation framework enabling the asynchronous accumulate-then-transmit protocol for EH-powered WSNs. Jointly optimizes power allocation and EH time fraction to maximize long-term throughput."
+      "summary": "Novel energy-aware resource allocation framework enabling asynchronous accumulate-then-transmit protocol for EH-powered WSNs."
     },
     {
-      "name": "A Digital Healthcare Platform for Cardiovascular Disease Management",
-      "publisher": "Open Innovation Conference Proceedings",
-      "releaseDate": "2024-10-01",
-      "summary": "Architecture, technology integration, and deployment of a digital healthcare platform in Vietnam."
+      "name": "ChronoSC: Task-Oriented Semantic Communication via Temporal-to-Color Encoding",
+      "publisher": "IEEE ICCE 2026",
+      "releaseDate": "2026-01-01",
+      "summary": "Accepted. Task-oriented semantic communication using temporal-to-color encoding."
     },
     {
-      "name": "Low-Cost Triboelectric Nanogenerator for Wind Energy Harvesting in Urban Areas",
-      "publisher": "Open Innovation Conference Proceedings",
-      "releaseDate": "2024-10-01",
-      "summary": "Design and evaluation of a low-cost TENG for sustainable wind energy harvesting in urban environments."
-    },
-    {
-      "name": "Sustainable Smart Mariculture System: IoT-Based Water Quality Monitoring",
-      "publisher": "Open Innovation Conference Proceedings",
-      "releaseDate": "2024-10-01",
-      "summary": "IoT-based water quality monitoring and pollution reduction system for smart aquaculture."
+      "name": "C-MambaPose: A Physics-Informed Complex Mamba Framework for Cross-Environment WiFi Human Pose Estimation",
+      "publisher": "Arxiv preprint",
+      "releaseDate": "2026-01-01",
+      "url": "https://arxiv.org/abs/2606.13700",
+      "summary": "Physics-informed complex Mamba framework for WiFi-based human pose estimation."
     }
   ],
   "skills": [
@@ -187,16 +215,16 @@
       "keywords": ["Python", "C/C++", "Verilog", "MATLAB", "LaTeX"]
     },
     {
-      "name": "Frameworks & Libraries",
+      "name": "Frameworks & AI",
       "level": "Advanced",
       "icon": "fa-solid fa-layer-group",
-      "keywords": ["PyTorch", "TensorFlow", "Scikit-learn", "Pandas", "NumPy", "OpenCV", "PennyLane", "Qiskit"]
+      "keywords": ["PyTorch", "TensorFlow", "Scikit-learn", "OpenCV", "PennyLane", "Qiskit"]
     },
     {
       "name": "Tools & Platforms",
       "level": "Intermediate",
       "icon": "fa-solid fa-wrench",
-      "keywords": ["Docker", "Git", "Vivado", "Altium", "PSpice", "CVX", "Arduino", "Raspberry Pi", "Linux"]
+      "keywords": ["Docker", "Git", "Vivado", "Altium", "PSpice", "Arduino", "Raspberry Pi", "Linux", "Teensy"]
     }
   ],
   "languages": [
@@ -209,45 +237,55 @@
       "language": "English",
       "fluency": "Working proficiency",
       "icon": ""
-    },
-    {
-      "language": "German",
-      "fluency": "Beginner",
-      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Research",
+      "name": "Research Areas",
       "icon": "fa-solid fa-microscope",
       "keywords": [
-        "Wireless Communications",
         "Semantic Communication",
-        "Energy Harvesting",
+        "Multi-Task Learning",
+        "Smart Aquaculture",
         "Computer Vision",
-        "Generative Models"
+        "Energy Harvesting",
+        "Embedded AI"
       ]
     }
   ],
   "projects": [
     {
-      "name": "Smart Aquaculture System (AquaSense / AquaSC)",
-      "summary": "IoT and AI system for sustainable resource management in aquaculture. Integrates computer vision, water quality sensors, and semantic communication.",
-      "highlights": ["Computer Vision", "IoT", "Semantic Communication"],
+      "name": "Smart Aquaculture IoT System",
+      "summary": "Multi-sensory IoT node with Multimodal AI, LLM RAG, and semantic communication. Funded by $3,500 Student Research Grant.",
+      "highlights": ["Multimodal AI", "LLM/RAG", "Hydrophone", "Semantic Communication"],
       "startDate": "2024-01-01",
       "endDate": "",
       "url": "https://github.com/korobn0608/aquasense"
     },
     {
+      "name": "Deep JSCC for Visible Light Communication",
+      "summary": "Hardware-in-the-loop Deep JSCC via analog light (R-2R DAC). 98% MNIST compression with differentiable channel approximation.",
+      "highlights": ["PyTorch", "Analog Circuit", "Signal Processing"],
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-01"
+    },
+    {
+      "name": "Teensy 4.1 Flight Controller Firmware",
+      "summary": "Custom C++ firmware with 400Hz PID loop, Madgwick sensor fusion (MPU6050), and RC signal filtering for Quad-X drone.",
+      "highlights": ["C++", "Embedded Systems", "PID Control"],
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-01"
+    },
+    {
       "name": "WinCart",
-      "summary": "AI-powered smart shopping assistant enabling hands-free experiences with real-time positioning via ML on Silicon Labs hardware.",
+      "summary": "AI-powered smart shopping assistant with ML-based positioning on Silicon Labs hardware.",
       "highlights": ["Edge AI", "Raspberry Pi", "Silicon Labs"],
       "startDate": "2025-01-01",
       "endDate": "2025-06-01"
     },
     {
       "name": "Neural Network From Scratch",
-      "summary": "Implemented a CNN in C++ and a feedforward NN in C for MNIST classification without external ML libraries.",
+      "summary": "CNN in C++ and feedforward NN in C for MNIST classification without external ML libraries.",
       "highlights": ["C++", "Deep Learning", "MNIST"],
       "startDate": "2024-01-01",
       "endDate": "2024-06-01",

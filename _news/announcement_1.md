@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-03-01 00:00:00+0700
+date: 2026-04-01 00:00:00+0700
 inline: true
 related_posts: false
 ---
 
-My paper <a href="https://ieeexplore.ieee.org/document/10841387" target="_blank"><strong>Energy-Aware Resource Allocation for Energy Harvesting Powered Wireless Sensor Nodes</strong></a> has been published in <strong>IEEE Communications Letters</strong>!
+Two papers submitted: <strong>AquaDeHi</strong> to <em>IEEE Transactions on Multimedia</em> and a <strong>comprehensive survey on autonomous smart aquaculture</strong> to <em>Computers and Electronics in Agriculture</em>. Both under review.
