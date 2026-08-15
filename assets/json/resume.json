@@ -27,6 +27,18 @@
   },
   "work": [
     {
+      "name": "HKU AIoT Lab, The University of Hong Kong",
+      "position": "Research Intern",
+      "url": "https://www.cs.hku.hk/index.php/people/academic-staff/cwu",
+      "startDate": "2026-07-01",
+      "endDate": "",
+      "summary": "Selected as 1 of 40 students for a fully funded summer internship. Supervised by Prof. Chenshu Wu.",
+      "highlights": [
+        "Working on thermal sensing research.",
+        "Selected from a competitive international applicant pool."
+      ]
+    },
+    {
       "name": "Intelligence, Computing and Communication Lab (ICCL), VinUniversity & Trinity College Dublin",
       "position": "Undergraduate Research Assistant",
       "url": "https://vinuni.edu.vn",
@@ -174,10 +186,11 @@
       "summary": "Under review. Task-oriented semantic communication framework for aquaculture IoT systems."
     },
     {
-      "name": "AquaDeHi: Detached Hierarchical Multi-Task Learning with Learnable Prototypes for Fine-Grained Aquatic Species Recognition",
-      "publisher": "IEEE Transactions on Multimedia",
+      "name": "FISHER: Gradient-Decoupled Hierarchical Multi-Task Learning for Fine-Grained Aquatic Species Recognition",
+      "publisher": "IEEE Transactions on Circuits and Systems for Video Technology",
       "releaseDate": "2026-04-01",
-      "summary": "Under review. Fine-grained aquatic species recognition via detached hierarchical multi-task learning."
+      "url": "https://arxiv.org/abs/2607.20523",
+      "summary": "Major Revision. Fine-grained aquatic species recognition via gradient-decoupled hierarchical multi-task learning. arXiv:2607.20523."
     },
     {
       "name": "From Monitoring to Action: A Comprehensive Survey of Autonomous Decision-Making in Smart Aquaculture Systems",
