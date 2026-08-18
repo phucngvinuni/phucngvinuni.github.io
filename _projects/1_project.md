@@ -2,7 +2,7 @@
 layout: page
 title: Smart Aquaculture IoT System
 description: "Multimodal AI, LLM RAG, Hydrophone, Full-stack — In Progress"
-img:
+img: assets/img/projects/aquaculture.png
 importance: 1
 category: research
 related_publications: true

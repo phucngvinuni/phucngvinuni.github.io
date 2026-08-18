@@ -2,7 +2,7 @@
 layout: page
 title: Neural Network From Scratch
 description: "C++, C, Mathematics — Completed"
-img:
+img: assets/img/projects/nn_scratch.png
 importance: 3
 category: work
 ---

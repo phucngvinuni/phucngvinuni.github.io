@@ -2,7 +2,7 @@
 layout: page
 title: WinCart
 description: "Edge AI smart shopping assistant — Completed"
-img:
+img: assets/img/projects/wincart.png
 importance: 2
 category: work
 ---

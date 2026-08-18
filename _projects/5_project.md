@@ -2,7 +2,7 @@
 layout: page
 title: Teensy 4.1 Flight Controller Firmware
 description: "C++, Embedded Systems, Control Theory — Jan. 2026"
-img:
+img: assets/img/projects/drone.jpg
 importance: 5
 category: work
 ---
