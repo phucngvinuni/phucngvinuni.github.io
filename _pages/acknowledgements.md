@@ -3,7 +3,7 @@ layout: page
 permalink: /acknowledgements/
 title: acknowledgements
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 None of this would have been possible without the immeasurable support I have received from my family, friends, mentors, and teachers throughout my life. I am deeply grateful to each of you.
