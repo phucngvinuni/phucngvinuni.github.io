@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Smart Aquaculture IoT System
-description: Multimodal AI, LLM RAG, Hydrophone, Full-stack — In Progress
+description: "Multimodal AI, LLM RAG, Hydrophone, Full-stack — In Progress"
 img:
 importance: 1
 category: research
 related_publications: true
 ---
 
-An intelligent multi-sensory aquaculture monitoring and management system developed at the **ICCL Lab, VinUniversity & Trinity College Dublin**. Funded by a **$3,500 Student Research Grant**.
+An intelligent multi-sensory aquaculture monitoring and management system developed at the **[ICCL Lab](https://icclabo.github.io/icc/), VinUniversity & Trinity College Dublin**. Funded by a **$3,500 Student Research Grant**.
 
 **Key Features:**
 - Multi-sensory IoT node: water quality sensors, underwater cameras, and hydrophones

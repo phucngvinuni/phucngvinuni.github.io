@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deep JSCC for Visible Light Communication
-description: PyTorch, Analog Circuit, Signal Processing — Jan. 2026
+description: "PyTorch, Analog Circuit, Signal Processing — Jan. 2026"
 img:
 importance: 4
 category: work

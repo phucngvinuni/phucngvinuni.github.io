@@ -2,96 +2,90 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Nguyen Hong Phuc
+    - name: Location
+      value: Ha Noi, Vietnam
+    - name: Email
+      value: 23phuc.nh@vinuni.edu.vn
     - name: Languages
-      value: English, German
+      value: Vietnamese (Native), English (Fluent)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Science in Electrical and Computer Engineering
+      institution: VinUniversity, Ha Noi, Vietnam
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 3.80 / 4.00 · Rank 1 in ECE Cohort 4"
+        - 100% Talent Scholarship (2023–2027)
+        - 2× President's List (AY 23–25), Dean's List (All Semesters)
+        - Australia-Vietnam Strategic Technologies Scholarship
+    - title: High School Diploma (Physics Major)
+      institution: Bac Ninh High School for the Gifted, Bac Ninh, Vietnam
+      year: 2020 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 9.6 / 10"
+        - 2nd Prize National Physics Olympiad (2023)
+        - 5th Place Worldwide — Thomas Jefferson Physics Olympiad (2023)
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: <a href="https://aiot.hku.hk/" target="_blank">HKU AIoT Lab</a>, The University of Hong Kong
+      year: Jul. 2026 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Supervised by Prof. Chenshu Wu. Working on thermal sensing research.
+        - Selected as 1 of 40 students for a fully funded summer internship from an international applicant pool.
+    - title: Undergraduate Research Assistant
+      institution: <a href="https://icclabo.github.io/icc/" target="_blank">Intelligence, Computing and Communication Lab (ICCL)</a>, VinUniversity & Trinity College Dublin
+      year: Oct. 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Supervised by Assist. Prof. Nguyen Van Dinh.
+        - Investigated Open RAN architecture, 5G networks, and Task-Oriented Semantic Communication.
+        - Developed multi-modality AI models for smart aquaculture (computer vision, fish tracking, underwater size estimation).
+        - Recipient of a $3,500 Student Research Grant to lead smart aquaculture research.
+    - title: Project Intern (IoT Challenge Top 20)
+      institution: FPT Software
+      year: May 2025 - Sep. 2025
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Deployed quantized LLMs on Raspberry Pi for a conversational assistant.
+        - Engineered full-stack real-time shopper tracking and route optimization via BLE localization.
+    - title: Research Consultant
+      institution: WorldQuant
+      year: Sep. 2024 - May 2025
+      description:
+        - Developed predictive mathematical models (Alphas) to forecast financial instrument price movements.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Australia-Vietnam Strategic Technologies Scholarship
+        - Best Poster Award — Open Innovation Conference 2025 (VinUniversity)
+        - Finalist — 2025 Quantum Global Industry Challenge (Connected DMV)
+        - Finalist — IoT Challenge 2025 (FPT Software)
+    - year: 2024
       items:
-        - Max Planck Medal
+        - Silver Medal — The University Physics Competition 2024
+        - Gold Medal — WorldQuant Challenge
+    - year: 2023
+      items:
+        - 100% Talent Scholarship — VinUniversity (2023–2027)
+        - 2nd Prize — National Physics Olympiad (Vietnam)
+        - 5th Place Worldwide — Thomas Jefferson Physics Olympiad
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C/C++, Verilog, MATLAB, LaTeX
+    - title: Frameworks & AI
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - PyTorch, TensorFlow, Scikit-learn, OpenCV, PennyLane, Qiskit
+    - title: Tools & Hardware
+      items:
+        - Docker, Git, Vivado, Altium, Arduino, Raspberry Pi, Teensy 4.1, Linux

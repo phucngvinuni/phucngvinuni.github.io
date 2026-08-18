@@ -5,8 +5,8 @@ permalink: /
 subtitle: >
   Bachelor of Science in Electrical and Computer Engineering @
   <a href="https://vinuni.edu.vn" target="_blank">VinUniversity</a>.
-  Research Intern @ <a href="https://www.cs.hku.hk/index.php/people/academic-staff/cwu" target="_blank">HKU AIoT Lab</a>.
-  UGrad RA @ ICCL (VinUni & Trinity College Dublin).
+  Research Intern @ <a href="https://aiot.hku.hk/" target="_blank">HKU AIoT Lab</a>.
+  UGrad RA @ <a href="https://icclabo.github.io/icc/" target="_blank">ICCL</a> (VinUni & Trinity College Dublin).
 
 profile:
   align: right
@@ -24,7 +24,7 @@ social: true
 
 I am a dedicated Electrical and Computer Engineering student at [VinUniversity](https://vinuni.edu.vn), specializing in **AI, machine learning, and signal processing**. My work bridges theoretical research with practical engineering applications, spanning semantic communication, multi-task learning for aquatic vision, and embedded AI systems.
 
-I am currently a **Research Intern at HKU AIoT Lab**, The University of Hong Kong (Jul. 2026 – Present), supervised by Prof. Chenshu Wu, working on thermal sensing research. I also work as an Undergraduate Research Assistant at the **Intelligence, Computing and Communication Lab (ICCL)** at VinUniversity & Trinity College Dublin, under the supervision of Assist. Prof. Nguyen Van Dinh. I am the recipient of a **$3,500 Student Research Grant** to lead research on smart aquaculture systems.
+I am currently a **Research Intern at [HKU AIoT Lab](https://aiot.hku.hk/)**, The University of Hong Kong (Jul. 2026 – Present), supervised by [Prof. Chenshu Wu](https://cswu.me/), working on thermal sensing research. I also work as an Undergraduate Research Assistant at the **[Intelligence, Computing and Communication Lab (ICCL)](https://icclabo.github.io/icc/)** at VinUniversity & Trinity College Dublin, under the supervision of [Assist. Prof. Nguyen Van Dinh](https://www.tcd.ie/scss/people/academic-staff/nguyenva/). I am the recipient of a **$3,500 Student Research Grant** to lead research on smart aquaculture systems.
 
 **Research interests:**
 - Wireless communications & signal processing (5G/Open RAN, semantic communication, energy harvesting)

@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"IEEE Commun. Lett.":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4234
+  color: "#00629B"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IEEE ICCE":
+  url: https://icce.org/
+  color: "#00629B"
 
-"Vision":
-  color: "#009f36"
+"IEEE TCSV":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76
+  color: "#00629B"
+
+"Arxiv":
+  url: https://arxiv.org/
+  color: "#B31B1B"

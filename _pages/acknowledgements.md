@@ -10,9 +10,9 @@ None of this would have been possible without the immeasurable support I have re
 
 ---
 
-**Prof. Nguyen Van Dinh** — Thank you for being the best supervisor I could have hoped for during my undergraduate years. Your patience, dedication, and thoughtful guidance have shaped the way I think about research and have meant more to me than words can express.
+**[Prof. Nguyen Van Dinh](https://www.tcd.ie/scss/people/academic-staff/nguyenva/)** — Thank you for being the best supervisor I could have hoped for during my undergraduate years. Your patience, dedication, and thoughtful guidance have shaped the way I think about research and have meant more to me than words can express.
 
-**Colleagues and research assistants at ICCL Lab** — Thank you for the collaborative spirit and the many stimulating discussions. A special thank you to my first co-authors, **chị Ngọc** and **anh Trung**, whose partnership and encouragement were invaluable in bringing our work to life.
+**Colleagues and research assistants at [ICCL Lab](https://icclabo.github.io/icc/)** — Thank you for the collaborative spirit and the many stimulating discussions. A special thank you to my first co-authors, **chị Ngọc** and **anh Trung**, whose partnership and encouragement were invaluable in bringing our work to life.
 
 **My teachers** — I owe a great deal to the educators who laid my foundation across the years:
 *Cô Hiền, Cô Loan, Cô Thái, Cô Mai, Thầy Hiệp, Cô Thúy* — thank you for your care, your wisdom, and for believing in me long before I believed in myself.

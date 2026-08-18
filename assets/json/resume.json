@@ -22,6 +22,11 @@
         "network": "LinkedIn",
         "username": "phuc-nguyen-a0150a26b",
         "url": "https://www.linkedin.com/in/phuc-nguyen-a0150a26b/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Nguyen Hong Phuc",
+        "url": "https://scholar.google.com/citations?user=cxER9pEAAAAJ&hl=vi"
       }
     ]
   },
@@ -29,7 +34,7 @@
     {
       "name": "HKU AIoT Lab, The University of Hong Kong",
       "position": "Research Intern",
-      "url": "https://www.cs.hku.hk/index.php/people/academic-staff/cwu",
+      "url": "https://aiot.hku.hk/",
       "startDate": "2026-07-01",
       "endDate": "",
       "summary": "Selected as 1 of 40 students for a fully funded summer internship. Supervised by Prof. Chenshu Wu.",
@@ -41,7 +46,7 @@
     {
       "name": "Intelligence, Computing and Communication Lab (ICCL), VinUniversity & Trinity College Dublin",
       "position": "Undergraduate Research Assistant",
-      "url": "https://vinuni.edu.vn",
+      "url": "https://icclabo.github.io/icc/",
       "startDate": "2023-10-01",
       "endDate": "",
       "summary": "Supervised by Assist. Prof. Nguyen Van Dinh.",

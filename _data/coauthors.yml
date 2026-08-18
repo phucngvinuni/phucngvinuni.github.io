@@ -1,34 +1,25 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"nguyen":
+  - firstname: ["Van-Dinh", "V.-D.", "Van Dinh", "V. D."]
+    url: https://www.tcd.ie/scss/people/academic-staff/nguyenva/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+  - firstname: ["Thanh Trung", "T. T.", "Thanh-Trung"]
+    url: https://scholar.google.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"wu":
+  - firstname: ["Chenshu", "C."]
+    url: https://cswu.me/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"ngo":
+  - firstname: ["Minh Ngoc", "M. N.", "Minh-Ngoc"]
+    url: https://scholar.google.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+  - firstname: ["Bao Huy", "B. H.", "Bao-Huy"]
+    url: https://scholar.google.com/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"tran":
+  - firstname: ["Minh Phuc", "M. P.", "Minh-Phuc"]
+    url: https://scholar.google.com/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"duong":
+  - firstname: ["Quang Nhat", "Q. N.", "Quang-Nhat"]
+    url: https://scholar.google.com/

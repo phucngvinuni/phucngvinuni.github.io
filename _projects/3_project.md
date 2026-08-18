@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Neural Network From Scratch
-description: C++, C, Mathematics — Completed
+description: "C++, C, Mathematics — Completed"
 img:
 importance: 3
 category: work
