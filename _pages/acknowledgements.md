@@ -12,6 +12,8 @@ None of this would have been possible without the immeasurable support I have re
 
 **[Prof. Nguyen Van Dinh](https://www.tcd.ie/scss/people/academic-staff/nguyenva/)** — Thank you for being the best supervisor I could have hoped for during my undergraduate years. Your patience, dedication, and thoughtful guidance have shaped the way I think about research and have meant more to me than words can express.
 
+**[Dr. Hoa](https://hoaio.com/)** — Thank you for being an inspiring mentor in quantum computing, and for your invaluable life advice and continuous encouragement.
+
 **Colleagues and research assistants at [ICCL Lab](https://icclabo.github.io/icc/)** — Thank you for the collaborative spirit and the many stimulating discussions. A special thank you to my first co-authors, **chị Ngọc** and **anh Trung**, whose partnership and encouragement were invaluable in bringing our work to life.
 
 **Professors and colleagues at CECS, [VinUniversity](https://vinuni.edu.vn/cecs/)** — Thank you for fostering an inspiring and supportive academic environment, and for the generous guidance and mentorship throughout my undergraduate studies.
