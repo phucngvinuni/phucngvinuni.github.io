@@ -14,6 +14,8 @@ None of this would have been possible without the immeasurable support I have re
 
 **Colleagues and research assistants at [ICCL Lab](https://icclabo.github.io/icc/)** — Thank you for the collaborative spirit and the many stimulating discussions. A special thank you to my first co-authors, **chị Ngọc** and **anh Trung**, whose partnership and encouragement were invaluable in bringing our work to life.
 
+**Professors and colleagues at CECS, [VinUniversity](https://vinuni.edu.vn/cecs/)** — Thank you for fostering an inspiring and supportive academic environment, and for the generous guidance and mentorship throughout my undergraduate studies.
+
 **My teachers** — I owe a great deal to the educators who laid my foundation across the years:
 *Cô Hiền, Cô Loan, Cô Thái, Cô Mai, Thầy Hiệp, Cô Thúy* — thank you for your care, your wisdom, and for believing in me long before I believed in myself.
 
