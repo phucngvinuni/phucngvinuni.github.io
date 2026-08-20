@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded a <strong>,500 Student Research Grant</strong> to lead research on smart aquaculture IoT and multimodal AI systems at VinUniversity.
+Awarded a <strong>$3,500 Student Research Grant</strong> to lead research on smart aquaculture IoT and multimodal AI systems at VinUniversity.
