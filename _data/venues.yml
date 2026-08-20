@@ -6,9 +6,8 @@
   url: https://www.ieee-icce.org/
   color: "#00629B"
 
-"IEEE TCSV":
-  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76
-  color: "#00629B"
+"Major Revision":
+  color: "#D97706"
 
 "Arxiv":
   url: https://arxiv.org/
