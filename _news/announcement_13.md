@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎓 <strong>Actively seeking Ph.D. positions for Fall 2027</strong> in Wireless Communications, Wireless Sensing, AI/ML, and Signal Processing. Feel free to reach out via <a href="mailto:23phuc.nh@vinuni.edu.vn">email</a>!
+🎓 <strong>Ph.D. Research &mdash; Fall 2027:</strong> Looking for fully funded Ph.D. positions in Wireless Sensing, Wireless Communications, AI/ML, and Signal Processing. Feel free to connect via <a href="mailto:23phuc.nh@vinuni.edu.vn">email</a>!

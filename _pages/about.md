@@ -23,19 +23,20 @@ social: true
 ---
 
 <div class="alert alert-info mt-2 mb-4 p-3" role="alert" style="border-left: 4px solid var(--global-theme-color); background-color: var(--global-card-bg-color, rgba(0, 150, 136, 0.06)); color: var(--global-text-color); display: flow-root; overflow: hidden;">
-  🎓 <strong>Seeking Ph.D. Opportunities:</strong> I am actively looking for fully funded <strong>Ph.D. positions starting in Fall 2027</strong> in Wireless Communications, Wireless Sensing, AI/ML, and Signal Processing. If you are interested in my research profile, please feel free to <a href="mailto:23phuc.nh@vinuni.edu.vn" class="alert-link">reach out</a>!
+  🎓 <strong>Ph.D. Research — Fall 2027:</strong> I am interested in fully funded Ph.D. programs in <strong>Wireless Sensing, Wireless Communications, AI/ML, and Signal Processing</strong>. If you are interested in discussing potential research alignment, please feel free to <a href="mailto:23phuc.nh@vinuni.edu.vn" class="alert-link">reach out</a>!
 </div>
 
-I am a dedicated Electrical and Computer Engineering student at [VinUniversity](https://vinuni.edu.vn), specializing in **AI, machine learning, and signal processing**. My work bridges theoretical research with practical engineering applications, spanning semantic communication, multi-task learning for aquatic vision, and embedded AI systems.
+I am an Electrical and Computer Engineering student at [VinUniversity](https://vinuni.edu.vn), specializing in **wireless sensing, signal processing, and AI/ML for physical-world perception**. My recent work is increasingly focused on wireless sensing and robust perception, building on my earlier research in semantic communication and computer vision.
 
-I am currently a **Research Intern at [HKU AIoT Lab](https://aiot.hku.hk/)**, The University of Hong Kong (Jul. 2026 – Present), supervised by [Prof. Chenshu Wu](https://cswu.me/), working on thermal sensing research. I also work as an Undergraduate Research Assistant at the **[Intelligence, Computing and Communication Lab (ICCL)](https://icclabo.github.io/icc/)** at VinUniversity & Trinity College Dublin, under the supervision of [Assist. Prof. Nguyen Van Dinh](https://www.tcd.ie/scss/people/academic-staff/nguyenva/). I am the recipient of a **$3,500 Student Research Grant** to lead research on smart aquaculture systems.
+I am currently a **Research Intern at [HKU AIoT Lab](https://aiot.hku.hk/)**, The University of Hong Kong (Jul. 2026 – Present), supervised by [Prof. Chenshu Wu](https://cswu.me/), working on thermal and RF sensing research. I also conduct research as an Undergraduate Research Assistant at the **[Intelligence, Computing and Communication Lab (ICCL)](https://icclabo.github.io/icc/)** at VinUniversity & Trinity College Dublin, under the supervision of [Assist. Prof. Nguyen Van Dinh](https://www.tcd.ie/scss/people/academic-staff/nguyenva/), where I lead a **$3,500 Student Research Grant** on smart multi-sensory aquaculture systems.
 
 **Research interests:**
-- Wireless communications & signal processing (5G/Open RAN, semantic communication, energy harvesting)
-- Machine learning & deep learning (multi-task learning, generative models, computer vision)
-- WiFi sensing (cross-environment human pose estimation, passive localization)
-- Quantum computing & quantum information
-- IoT & embedded AI systems (smart aquaculture, edge AI, flight control)
+- **Primary:**
+  - Wireless Sensing & Signal Processing (WiFi CSI, RF & thermal perception, pose estimation)
+  - AI/ML for Physical-World Perception (physics-informed models, state space models / Mamba)
+  - Wireless Communications & Semantic Communication (task-oriented semantic coding, DeepJSCC)
+- **Secondary / Supporting:**
+  - Human sensing & activity recognition · Domain generalization · Edge AI & embedded IoT systems
 
 **Education:**
 - BSc in Electrical and Computer Engineering, VinUniversity (Oct. 2023 – Present)  
