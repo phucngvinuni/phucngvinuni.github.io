@@ -22,8 +22,8 @@ selected_papers: true
 social: true
 ---
 
-<div class="alert alert-info mt-2 mb-4 p-3" role="alert" style="border-left: 4px solid var(--global-theme-color); background-color: var(--global-card-bg-color, rgba(0, 150, 136, 0.06)); color: var(--global-text-color);">
-  🎓 <strong>Seeking Ph.D. Opportunities:</strong> I am actively looking for fully funded <strong>Ph.D. positions starting in Fall 2027</strong> in AI/ML, Wireless Sensing, and Signal Processing. If you are interested in my research profile, please feel free to <a href="mailto:23phuc.nh@vinuni.edu.vn" class="alert-link">reach out</a>!
+<div class="alert alert-info mt-2 mb-4 p-3" role="alert" style="border-left: 4px solid var(--global-theme-color); background-color: var(--global-card-bg-color, rgba(0, 150, 136, 0.06)); color: var(--global-text-color); display: flow-root; overflow: hidden;">
+  🎓 <strong>Seeking Ph.D. Opportunities:</strong> I am actively looking for fully funded <strong>Ph.D. positions starting in Fall 2027</strong> in Wireless Communications, Wireless Sensing, AI/ML, and Signal Processing. If you are interested in my research profile, please feel free to <a href="mailto:23phuc.nh@vinuni.edu.vn" class="alert-link">reach out</a>!
 </div>
 
 I am a dedicated Electrical and Computer Engineering student at [VinUniversity](https://vinuni.edu.vn), specializing in **AI, machine learning, and signal processing**. My work bridges theoretical research with practical engineering applications, spanning semantic communication, multi-task learning for aquatic vision, and embedded AI systems.
