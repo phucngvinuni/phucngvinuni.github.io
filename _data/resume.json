@@ -193,23 +193,11 @@
   ],
   "publications": [
     {
-      "name": "SemPose-Fi: Label-Free Cross-Environment Wi-Fi Pose Estimation via Semantic CSI Transmission",
-      "publisher": "IEEE INFOCOM 2027 (A*)",
-      "releaseDate": "2027-01-01",
-      "summary": "Under review. Label-free cross-environment Wi-Fi 3D human pose estimation."
-    },
-    {
       "name": "C-MambaPose: A Physics-Informed Complex Mamba Framework for Cross-Environment WiFi Human Pose Estimation",
       "publisher": "arXiv preprint",
       "releaseDate": "2026-06-01",
       "url": "https://arxiv.org/abs/2606.13700",
       "summary": "Physics-informed complex Mamba framework for WiFi-based human pose estimation."
-    },
-    {
-      "name": "AquaSC: Task-Oriented Semantic Communication for Efficient and Intelligent IoT Systems",
-      "publisher": "IEEE Transactions on Emerging Topics in Computational Intelligence",
-      "releaseDate": "2026-05-01",
-      "summary": "Major Revision. Task-oriented semantic communication framework for intelligent IoT networks."
     },
     {
       "name": "ChronoSC: Task-Oriented Semantic Communication via Temporal-to-Color Encoding",
@@ -220,10 +208,10 @@
     },
     {
       "name": "FISHER: Gradient-Decoupled Hierarchical Multi-Task Learning for Fine-Grained Recognition",
-      "publisher": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "publisher": "Major Revision",
       "releaseDate": "2026-07-01",
       "url": "https://arxiv.org/abs/2607.20523",
-      "summary": "Major Revision. Fine-grained recognition via gradient-decoupled hierarchical multi-task learning."
+      "summary": "Major Revision. Fine-grained aquatic species recognition via gradient-decoupled hierarchical multi-task learning. arXiv:2607.20523."
     },
     {
       "name": "Energy-Aware Resource Allocation for Energy Harvesting Powered Wireless Sensor Nodes",

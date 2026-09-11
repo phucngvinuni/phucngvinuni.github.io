@@ -16,7 +16,7 @@ An intelligent multi-sensory aquaculture monitoring and management system develo
 - Multi-sensory IoT node: water quality sensors, underwater cameras, and hydrophones
 - **Multimodal AI** framework fusing visual and acoustic data for feeding schedule optimization and water quality forecasting
 - **LLM with Retrieval-Augmented Generation (RAG)** integrated into a Web App for context-aware advisory services to farmers
-- Semantic communication (AquaSC) for efficient data transmission over IoT links
+- Task-oriented semantic communication for efficient data transmission over IoT links
 
 **Technologies:** Python, PyTorch, OpenCV, Hydrophone DSP, LLM/RAG, Arduino, Raspberry Pi, Full-stack Web
 
