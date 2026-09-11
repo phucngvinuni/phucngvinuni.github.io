@@ -40,11 +40,12 @@ I am currently a **Research Intern at [HKU AIoT Lab](https://aiot.hku.hk/)**, Th
 
 **Education:**
 - BSc in Electrical and Computer Engineering, VinUniversity (Oct. 2023 – Present)  
-  GPA: 3.80/4.00 · Rank 1 in ECE Cohort 4 · 100% Talent Scholarship (2023–2027)  
+  GPA: 3.80/4.00 · Rank 1 in ECE Cohort 4 · 2× President's List (AY 23–25) · Dean's List (5 Semesters) · 100% Talent Scholarship (2023–2027)  
   Australia-Vietnam Strategic Technologies Scholarship · Best Poster Award OIC 2025
 - Bac Ninh High School for the Gifted, Physics Major (2020 – 2023)  
-  2nd Prize National Physics Olympiad (2023) · 5th Place Thomas Jefferson Physics Olympiad (2023)
+  GPA: 9.6/10 · 2nd Prize National Physics Olympiad (2023) · Gold Medal High School Olympiad (2021–2022) · 5th Place Thomas Jefferson Physics Olympiad (2023)
 
 **Professional Activities:**
-- Invited Reviewer: IEEE International Conference on Advanced Technologies for Communications (ATC) 2026
+- Technical Program Committee (TPC): 2026 RIVF International Conference on Computing and Communication Technologies
 - Invited Reviewer: IEEE Transactions on Cognitive Communications and Networking
+- Invited Reviewer: IEEE International Conference on Advanced Technologies for Communications (ATC) 2026

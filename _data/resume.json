@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Nguyen Hong Phuc",
-    "label": "BSc ECE Student & AI Researcher",
+    "label": "BSc ECE Student & AI / Wireless Sensing Researcher",
     "image": "",
     "email": "23phuc.nh@vinuni.edu.vn",
     "phone": "+84 326 060 805",
     "url": "https://phucngvinuni.github.io/",
-    "summary": "Electrical and Computer Engineering student at VinUniversity specializing in wireless sensing, signal processing, and AI/ML for physical-world perception. Research at HKU AIoT Lab and ICCL Lab (VinUni & Trinity College Dublin). $3,500 Student Research Grant recipient. Seeking Ph.D. positions for Fall 2027.",
+    "summary": "Electrical and Computer Engineering student at VinUniversity specializing in wireless sensing, signal processing, and AI/ML for physical-world perception. Research at HKU AIoT Lab and ICCL Lab (VinUni & Trinity College Dublin). Recipient of a $3,500 Student Research Grant. Seeking fully funded Ph.D. positions for Fall 2027.",
     "location": {
       "city": "Ha Noi",
       "countryCode": "VN",
@@ -37,10 +37,11 @@
       "url": "https://aiot.hku.hk/",
       "startDate": "2026-07-01",
       "endDate": "",
-      "summary": "Selected as 1 of 40 students for a fully funded summer internship. Supervised by Prof. Chenshu Wu.",
+      "summary": "Selected as 1 of 40 students for a fully funded summer research internship; supervised by Prof. Chenshu Wu on privacy-preserving fall detection using low-resolution thermal (62×80 IRA) sensing.",
       "highlights": [
-        "Working on thermal sensing research.",
-        "Selected from a competitive international applicant pool."
+        "Re-architected the real-time inference pipeline for NVIDIA Jetson Orin, raising throughput from 6.7 to 20.8 FPS and cutting display latency from 3 s to under 0.3 s, via a CNN feature cache (−80% encode calls), window/stride tuning, and AMP FP16.",
+        "Built a 45-session, 91,800-frame thermal + RGB + depth dataset with a zero-manual-annotation labelling pipeline (YOLOv8n-Pose on RGB, projected into thermal space and thermally gated).",
+        "Benchmarked 6 detector versions at IoU@0.5, cutting false positives on empty frames from 40.7% to 1.5%; traced dominant error to preprocessing rather than model capacity (10× FPR reduction from one line)."
       ]
     },
     {
@@ -51,165 +52,164 @@
       "endDate": "",
       "summary": "Supervised by Assist. Prof. Nguyen Van Dinh.",
       "highlights": [
-        "Investigated Open RAN architecture, 5G networks, and Task-Oriented Semantic Communication.",
-        "Developed multi-modality AI models for smart aquaculture (computer vision, fish tracking, underwater size estimation, image segmentation).",
-        "Exploring Diffusion Models for enhanced data generation and signal processing applications."
+        "Investigated Open RAN architecture, 5G networks, and Task-Oriented Semantic Communication under supervision of Prof. Nguyen Van Dinh.",
+        "Developed multi-modality AI models for smart aquaculture: computer vision for fish tracking, underwater size estimation, and image segmentation.",
+        "Explored Diffusion Models for enhanced data generation and signal processing.",
+        "Recipient of a $3,500 Student Research Grant to lead smart aquaculture research."
       ]
     },
     {
       "name": "FPT Software",
-      "position": "Project Intern (Top 20 Finalist — IoT Challenge)",
-      "url": "https://fptsoftware.com",
+      "position": "Project Intern (Top 20 Finalist, IoT Challenge)",
+      "url": "https://fptsoftware.com/",
       "startDate": "2025-05-01",
       "endDate": "2025-09-01",
-      "summary": "",
+      "summary": "Top 20 Finalist at the IoT Challenge 2025.",
       "highlights": [
-        "Deployed quantized LLMs on Raspberry Pi to create a conversational conservation chatbot.",
+        "Deployed quantized LLMs (LLaMA/Mistral with GGUF) on Raspberry Pi to build a conversational assistant.",
         "Engineered a full-stack solution (Frontend/Backend) for real-time shopper tracking and route optimization via BLE localization."
       ]
     },
     {
       "name": "WorldQuant",
       "position": "Research Consultant",
-      "url": "https://worldquant.com",
+      "url": "https://www.worldquant.com/",
       "startDate": "2024-09-01",
       "endDate": "2025-05-01",
-      "summary": "",
+      "summary": "Quantitative research consultant.",
       "highlights": [
         "Developed predictive mathematical models (Alphas) to forecast financial instrument price movements.",
-        "Utilized statistical analysis and historical data to optimize trading signals."
+        "Performed statistical analysis on historical data to optimize trading signals."
       ]
     }
   ],
   "education": [
     {
       "institution": "VinUniversity",
-      "location": "Ha Noi, Vietnam",
       "url": "https://vinuni.edu.vn",
       "area": "Electrical and Computer Engineering",
       "studyType": "Bachelor of Science",
       "startDate": "2023-10-01",
       "endDate": "2027-06-01",
-      "score": "3.80/4.00",
+      "score": "3.80 / 4.00",
       "courses": [
+        "Signals and Systems",
+        "Wireless Communications",
+        "Machine Learning & Deep Learning",
+        "Embedded Systems",
+        "Computer Architecture"
+      ],
+      "honors": [
         "Rank 1 in ECE Cohort 4",
-        "2× President's List (AY 23–25)",
-        "Dean's List (All Semesters)",
-        "100% Talent Scholarship (2023–2027)"
+        "2 times President's List (AY 23-25)",
+        "Dean's List (5 Semesters)",
+        "100% Talent Scholarship (2023–2027)",
+        "Australia-Vietnam Strategic Technologies Scholarship"
       ]
     },
     {
       "institution": "Bac Ninh High School for the Gifted",
-      "location": "Bac Ninh, Vietnam",
       "area": "Physics Major",
-      "studyType": "High School",
+      "studyType": "High School Diploma",
       "startDate": "2020-08-01",
       "endDate": "2023-05-01",
-      "score": "9.6/10",
-      "courses": []
+      "score": "9.6 / 10",
+      "honors": [
+        "Second Prize — National Physics Olympiad (2023)",
+        "Gold Medal — High School Olympiad (2021-2022)",
+        "5th Place Worldwide — Thomas Jefferson Physics Olympiad (2023)"
+      ]
     }
   ],
   "awards": [
     {
+      "title": "Best Poster Award",
+      "date": "2025-04-01",
+      "awarder": "Open Innovation Conference 2025, VinUniversity",
+      "summary": "Awarded Best Poster Award for research presented at OIC 2025."
+    },
+    {
+      "title": "Gold Medal",
+      "date": "2024-10-01",
+      "awarder": "WorldQuant Challenge",
+      "summary": "Gold Medal for mathematical financial model development."
+    },
+    {
       "title": "Australia-Vietnam Strategic Technologies Scholarship",
       "date": "2025-06-01",
-      "awarder": ""
+      "awarder": "Australia-Vietnam Strategic Partnership",
+      "summary": "Merit-based scholarship for strategic technology research."
     },
     {
-      "title": "Best Poster Award — Open Innovation Conference 2025",
-      "date": "2025-04-01",
-      "awarder": "VinUniversity"
-    },
-    {
-      "title": "Finalist — 2025 Quantum Global Industry Challenge (Connected DMV)",
-      "date": "2025-01-01",
-      "awarder": "Quantum Global Industry"
-    },
-    {
-      "title": "Finalist — IoT Challenge 2025",
-      "date": "2025-01-01",
-      "awarder": "FPT Software"
-    },
-    {
-      "title": "Silver Medal — The University Physics Competition 2024",
+      "title": "Silver Medal",
       "date": "2024-11-01",
-      "awarder": "University Physics Competition"
+      "awarder": "The University Physics Competition 2024",
+      "summary": "International university physics modeling competition."
     },
     {
-      "title": "Gold Medal — WorldQuant Challenge",
-      "date": "2024-01-01",
-      "awarder": "WorldQuant"
+      "title": "Finalist",
+      "date": "2025-05-01",
+      "awarder": "2025 Quantum Global Industry Challenge (Connected DMV)",
+      "summary": "Global challenge on quantum computing applications."
     },
     {
-      "title": "2nd Prize — National Physics Olympiad",
-      "date": "2023-01-01",
-      "awarder": "Ministry of Education and Training, Vietnam"
+      "title": "Finalist",
+      "date": "2025-08-01",
+      "awarder": "IoT Challenge 2025 (FPT Software)",
+      "summary": "Top 20 Finalist for WinCart AI-powered smart shopping assistant."
     },
     {
-      "title": "5th Place Worldwide — Thomas Jefferson Physics Olympiad",
-      "date": "2023-01-01",
-      "awarder": "Thomas Jefferson High School"
-    },
-    {
-      "title": "Gold Medal — High School Olympiad",
-      "date": "2022-01-01",
-      "awarder": ""
+      "title": "Student Research Grant ($3,500)",
+      "date": "2026-03-01",
+      "awarder": "VinUniversity",
+      "summary": "Grant lead to develop multi-sensory smart aquaculture IoT systems."
     }
   ],
   "certificates": [
     {
       "name": "Digital Signal Processing",
-      "issuer": "EPFL (Coursera)",
-      "icon": "fa-solid fa-signal"
+      "date": "2024-01-01",
+      "issuer": "EPFL / Coursera",
+      "url": ""
     },
     {
       "name": "Neural Networks and Deep Learning",
-      "issuer": "DeepLearning.AI",
-      "icon": "fa-solid fa-brain"
+      "date": "2024-01-01",
+      "issuer": "DeepLearning.AI / Coursera",
+      "url": ""
     },
     {
       "name": "Wireless Communications",
-      "issuer": "Yonsei University (Coursera)",
-      "icon": "fa-solid fa-wifi"
+      "date": "2024-01-01",
+      "issuer": "Yonsei University / Coursera",
+      "url": ""
     },
     {
-      "name": "Open RAN 101",
-      "issuer": "VinUniversity",
-      "icon": "fa-solid fa-tower-broadcast"
-    },
-    {
-      "name": "Introduction to Microelectronics",
-      "issuer": "VinUniversity",
-      "icon": "fa-solid fa-microchip"
+      "name": "Open RAN 101, Quantum 101, Introduction to Optimization",
+      "date": "2024-01-01",
+      "issuer": "Academic Coursework",
+      "url": ""
     }
   ],
   "publications": [
     {
-      "name": "AquaSC: Task-Oriented Semantic Communication for Efficient and Intelligent Aquaculture IoT Systems",
+      "name": "SemPose-Fi: Label-Free Cross-Environment Wi-Fi Pose Estimation via Semantic CSI Transmission",
+      "publisher": "IEEE INFOCOM 2027 (A*)",
+      "releaseDate": "2027-01-01",
+      "summary": "Under review. Label-free cross-environment Wi-Fi 3D human pose estimation."
+    },
+    {
+      "name": "C-MambaPose: A Physics-Informed Complex Mamba Framework for Cross-Environment WiFi Human Pose Estimation",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2026-06-01",
+      "url": "https://arxiv.org/abs/2606.13700",
+      "summary": "Physics-informed complex Mamba framework for WiFi-based human pose estimation."
+    },
+    {
+      "name": "AquaSC: Task-Oriented Semantic Communication for Efficient and Intelligent IoT Systems",
       "publisher": "IEEE Transactions on Emerging Topics in Computational Intelligence",
-      "releaseDate": "2025-10-01",
-      "summary": "Under review. Task-oriented semantic communication framework for aquaculture IoT systems."
-    },
-    {
-      "name": "FISHER: Gradient-Decoupled Hierarchical Multi-Task Learning for Fine-Grained Aquatic Species Recognition",
-      "publisher": "Major Revision",
-      "releaseDate": "2026-07-01",
-      "url": "https://arxiv.org/abs/2607.20523",
-      "summary": "Major Revision. Fine-grained aquatic species recognition via gradient-decoupled hierarchical multi-task learning. arXiv:2607.20523."
-    },
-    {
-      "name": "From Monitoring to Action: A Comprehensive Survey of Autonomous Decision-Making in Smart Aquaculture Systems",
-      "publisher": "Computers and Electronics in Agriculture",
-      "releaseDate": "2026-04-01",
-      "url": "https://doi.org/10.13140/RG.2.2.24130.95688",
-      "summary": "Under review. Comprehensive survey of autonomous decision-making for smart aquaculture."
-    },
-    {
-      "name": "Energy-Aware Resource Allocation for Energy Harvesting Powered Wireless Sensor Nodes",
-      "publisher": "IEEE Communications Letters",
-      "releaseDate": "2025-03-01",
-      "url": "https://ieeexplore.ieee.org/document/10841387",
-      "summary": "Novel energy-aware resource allocation framework enabling asynchronous accumulate-then-transmit protocol for EH-powered WSNs."
+      "releaseDate": "2026-05-01",
+      "summary": "Major Revision. Task-oriented semantic communication framework for intelligent IoT networks."
     },
     {
       "name": "ChronoSC: Task-Oriented Semantic Communication via Temporal-to-Color Encoding",
@@ -219,97 +219,106 @@
       "summary": "Accepted. Task-oriented semantic communication using temporal-to-color encoding."
     },
     {
-      "name": "C-MambaPose: A Physics-Informed Complex Mamba Framework for Cross-Environment WiFi Human Pose Estimation",
-      "publisher": "Arxiv preprint",
-      "releaseDate": "2026-01-01",
-      "url": "https://arxiv.org/abs/2606.13700",
-      "summary": "Physics-informed complex Mamba framework for WiFi-based human pose estimation."
+      "name": "FISHER: Gradient-Decoupled Hierarchical Multi-Task Learning for Fine-Grained Recognition",
+      "publisher": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "releaseDate": "2026-07-01",
+      "url": "https://arxiv.org/abs/2607.20523",
+      "summary": "Major Revision. Fine-grained recognition via gradient-decoupled hierarchical multi-task learning."
+    },
+    {
+      "name": "Energy-Aware Resource Allocation for Energy Harvesting Powered Wireless Sensor Nodes",
+      "publisher": "IEEE Communications Letters",
+      "releaseDate": "2025-03-01",
+      "url": "https://ieeexplore.ieee.org/document/10841387",
+      "summary": "Novel energy-aware resource allocation framework enabling asynchronous accumulate-then-transmit protocol for EH-powered WSNs."
+    },
+    {
+      "name": "From Monitoring to Action: A Comprehensive Survey of Autonomous Decision-Making in Smart Aquaculture Systems",
+      "publisher": "Computers and Electronics in Agriculture",
+      "releaseDate": "2026-04-01",
+      "url": "https://doi.org/10.13140/RG.2.2.24130.95688",
+      "summary": "Major Revision. Comprehensive survey of autonomous decision-making for smart aquaculture."
     }
   ],
   "skills": [
     {
       "name": "Programming Languages",
-      "level": "Advanced",
-      "icon": "fa-solid fa-code",
-      "keywords": ["Python", "C/C++", "Verilog", "MATLAB", "LaTeX"]
+      "level": "Proficient",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "Verilog",
+        "MATLAB",
+        "LaTeX"
+      ]
     },
     {
       "name": "Frameworks & AI",
-      "level": "Advanced",
-      "icon": "fa-solid fa-layer-group",
-      "keywords": ["PyTorch", "TensorFlow", "Scikit-learn", "OpenCV", "PennyLane", "Qiskit"]
+      "level": "Proficient",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "OpenCV",
+        "PennyLane",
+        "Qiskit"
+      ]
     },
     {
-      "name": "Tools & Platforms",
-      "level": "Intermediate",
-      "icon": "fa-solid fa-wrench",
-      "keywords": ["Docker", "Git", "Vivado", "Altium", "PSpice", "Arduino", "Raspberry Pi", "Linux", "Teensy"]
+      "name": "Tools & Hardware",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "Git",
+        "Vivado",
+        "Altium",
+        "PSpice",
+        "Arduino",
+        "Raspberry Pi",
+        "Linux",
+        "Teensy 4.1"
+      ]
     }
   ],
   "languages": [
     {
       "language": "Vietnamese",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Working proficiency",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Research Areas",
-      "icon": "fa-solid fa-microscope",
-      "keywords": [
-        "Semantic Communication",
-        "Multi-Task Learning",
-        "WiFi Sensing",
-        "Quantum Computing",
-        "Smart Aquaculture",
-        "Computer Vision",
-        "Energy Harvesting",
-        "Embedded AI"
-      ]
+      "fluency": "Professional working proficiency (academic & technical)"
     }
   ],
   "projects": [
     {
+      "name": "Deep JSCC for Visible Light Communication",
+      "description": "Hardware-in-the-loop Deep JSCC transmitting semantic features via analog light intensity using custom 8-bit R-2R DAC. 98% compression on MNIST.",
+      "startDate": "2026-01-01",
+      "url": "https://phucngvinuni.github.io/projects/4_project/"
+    },
+    {
       "name": "Smart Aquaculture IoT System",
-      "summary": "Multi-sensory IoT node with Multimodal AI, LLM RAG, and semantic communication. Funded by $3,500 Student Research Grant.",
-      "highlights": ["Multimodal AI", "LLM/RAG", "Hydrophone", "Semantic Communication"],
-      "startDate": "2024-01-01",
-      "endDate": "",
+      "description": "Multi-sensory IoT node (water quality, camera, hydrophone) with multimodal AI and LLM RAG for intelligent pond monitoring. Funded by $3,500 grant.",
+      "startDate": "2024-10-01",
       "url": "https://github.com/korobn0608/aquasense"
     },
     {
-      "name": "Deep JSCC for Visible Light Communication",
-      "summary": "Hardware-in-the-loop Deep JSCC via analog light (R-2R DAC). 98% MNIST compression with differentiable channel approximation.",
-      "highlights": ["PyTorch", "Analog Circuit", "Signal Processing"],
-      "startDate": "2026-01-01",
-      "endDate": "2026-01-01"
-    },
-    {
       "name": "Teensy 4.1 Flight Controller Firmware",
-      "summary": "Custom C++ firmware with 400Hz PID loop, Madgwick sensor fusion (MPU6050), and RC signal filtering for Quad-X drone.",
-      "highlights": ["C++", "Embedded Systems", "PID Control"],
+      "description": "400Hz real-time PID stabilization firmware on Teensy 4.1 for Quad-X drone with Madgwick IMU sensor fusion and 500k baud telemetry.",
       "startDate": "2026-01-01",
-      "endDate": "2026-01-01"
+      "url": "https://phucngvinuni.github.io/projects/5_project/"
     },
     {
-      "name": "WinCart",
-      "summary": "AI-powered smart shopping assistant with ML-based positioning on Silicon Labs hardware.",
-      "highlights": ["Edge AI", "Raspberry Pi", "Silicon Labs"],
-      "startDate": "2025-01-01",
-      "endDate": "2025-06-01"
+      "name": "WinCart – Edge AI Smart Shopping Assistant",
+      "description": "Autonomous shopping cart with real-time BLE indoor positioning on Silicon Labs hardware and quantized LLM assistant on Raspberry Pi.",
+      "startDate": "2025-05-01",
+      "url": "https://phucngvinuni.github.io/projects/2_project/"
     },
     {
       "name": "Neural Network From Scratch",
-      "summary": "CNN in C++ and feedforward NN in C for MNIST classification without external ML libraries.",
-      "highlights": ["C++", "Deep Learning", "MNIST"],
-      "startDate": "2024-01-01",
-      "endDate": "2024-06-01",
+      "description": "Custom CNN in C++ and Feedforward NN in C for MNIST digit classification with full backpropagation and matrix optimization from scratch.",
+      "startDate": "2024-03-01",
       "url": "https://github.com/phucngvinuni/CNNfrom_scratchcpp"
     }
   ]

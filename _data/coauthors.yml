@@ -23,3 +23,19 @@
 "duong":
   - firstname: ["Quang Nhat", "Q. N.", "Quang-Nhat"]
     url: https://scholar.google.com/
+
+"gian":
+  - firstname: ["Toan", "T."]
+    url: https://scholar.google.com/
+
+"wanasekara":
+  - firstname: ["S. H.", "Suranga", "S."]
+    url: https://scholar.google.com/
+
+"dzung":
+  - firstname: ["D. V.", "Dinh Van", "D."]
+    url: https://scholar.google.com/
+
+"dam":
+  - firstname: ["Q.-H. N.", "Quang-Huy", "Q. H. N."]
+    url: https://scholar.google.com/

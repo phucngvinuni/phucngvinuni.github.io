@@ -1,3 +1,19 @@
+"IEEE INFOCOM":
+  url: https://infocom2027.ieee-infocom.org/
+  color: "#00629B"
+
+"IEEE TETCI":
+  url: https://cis.ieee.org/publications/t-emerging-topics-in-ci
+  color: "#00629B"
+
+"IEEE TCSVT":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76
+  color: "#00629B"
+
+"Comp. Electron. Agric.":
+  url: https://www.sciencedirect.com/journal/computers-and-electronics-in-agriculture
+  color: "#007A3D"
+
 "IEEE Commun. Lett.":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4234
   color: "#00629B"

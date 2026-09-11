@@ -7,26 +7,30 @@
       value: Ha Noi, Vietnam
     - name: Email
       value: 23phuc.nh@vinuni.edu.vn
+    - name: Website
+      value: https://phucngvinuni.github.io/
+    - name: GitHub
+      value: https://github.com/phucngvinuni
     - name: Languages
-      value: Vietnamese (Native), English (Fluent)
+      value: Vietnamese (Native), English (Professional working proficiency)
 
 - title: Education
   type: time_table
   contents:
     - title: Bachelor of Science in Electrical and Computer Engineering
       institution: VinUniversity, Ha Noi, Vietnam
-      year: 2023 - Present
+      year: Oct. 2023 - Present
       description:
-        - "GPA: 3.80 / 4.00 · Rank 1 in ECE Cohort 4"
-        - 100% Talent Scholarship (2023–2027)
-        - 2× President's List (AY 23–25), Dean's List (All Semesters)
+        - "Cumulative GPA: 3.80 / 4.00 (Rank 1 in ECE Cohort 4)"
+        - "Honors: 2 times President's List (AY 23-25), Dean's List (5 Semesters), 100% Talent Scholarship (2023–2027)"
         - Australia-Vietnam Strategic Technologies Scholarship
     - title: High School Diploma (Physics Major)
       institution: Bac Ninh High School for the Gifted, Bac Ninh, Vietnam
-      year: 2020 - 2023
+      year: Aug. 2020 - May 2023
       description:
         - "GPA: 9.6 / 10"
-        - 2nd Prize National Physics Olympiad (2023)
+        - Second Prize — National Physics Olympiad (2023)
+        - Gold Medal — High School Olympiad (2021–2022)
         - 5th Place Worldwide — Thomas Jefferson Physics Olympiad (2023)
 
 - title: Research Experience
@@ -36,37 +40,41 @@
       institution: <a href="https://aiot.hku.hk/" target="_blank">HKU AIoT Lab</a>, The University of Hong Kong
       year: Jul. 2026 - Present
       description:
-        - Supervised by Prof. Chenshu Wu. Working on thermal sensing research.
-        - Selected as 1 of 40 students for a fully funded summer internship from an international applicant pool.
+        - Selected as 1 of 40 students for a fully funded summer research internship; supervised by Prof. Chenshu Wu on privacy-preserving fall detection using low-resolution thermal (62×80 IRA) sensing.
+        - Re-architected the real-time inference pipeline for NVIDIA Jetson Orin, raising throughput from 6.7 to 20.8 FPS and cutting display latency from 3 s to under 0.3 s, via a CNN feature cache (−80% encode calls), window/stride tuning, and AMP FP16.
+        - Built a 45-session, 91,800-frame thermal + RGB + depth dataset with a zero-manual-annotation labelling pipeline (YOLOv8n-Pose on RGB, projected into thermal space and thermally gated).
+        - Benchmarked 6 detector versions at IoU@0.5, cutting false positives on empty frames from 40.7% to 1.5%; traced dominant error to preprocessing rather than model capacity (10× FPR reduction from one line).
     - title: Undergraduate Research Assistant
       institution: <a href="https://icclabo.github.io/icc/" target="_blank">Intelligence, Computing and Communication Lab (ICCL)</a>, VinUniversity & Trinity College Dublin
       year: Oct. 2023 - Present
       description:
-        - Supervised by Assist. Prof. Nguyen Van Dinh.
-        - Investigated Open RAN architecture, 5G networks, and Task-Oriented Semantic Communication.
-        - Developed multi-modality AI models for smart aquaculture (computer vision, fish tracking, underwater size estimation).
+        - Supervised by Assist. Prof. Nguyen Van Dinh. Investigated Open RAN architecture, 5G networks, and Task-Oriented Semantic Communication.
+        - Developed multi-modality AI models for smart aquaculture (computer vision for fish tracking, underwater size estimation, image segmentation).
+        - Explored Diffusion Models for enhanced data generation and signal processing.
         - Recipient of a $3,500 Student Research Grant to lead smart aquaculture research.
-    - title: Project Intern (IoT Challenge Top 20)
-      institution: FPT Software
+    - title: Project Intern (Top 20 Finalist, IoT Challenge)
+      institution: FPT Software, Ha Noi, Vietnam
       year: May 2025 - Sep. 2025
       description:
-        - Deployed quantized LLMs on Raspberry Pi for a conversational assistant.
-        - Engineered full-stack real-time shopper tracking and route optimization via BLE localization.
+        - Deployed quantized LLMs (LLaMA/Mistral with GGUF) on Raspberry Pi to build a conversational assistant.
+        - Engineered a full-stack solution (Frontend/Backend) for real-time shopper tracking and route optimization via BLE localization.
     - title: Research Consultant
-      institution: WorldQuant
+      institution: WorldQuant, Remote
       year: Sep. 2024 - May 2025
       description:
         - Developed predictive mathematical models (Alphas) to forecast financial instrument price movements.
+        - Performed statistical analysis on historical data to optimize trading signals.
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2025
       items:
-        - Australia-Vietnam Strategic Technologies Scholarship
         - Best Poster Award — Open Innovation Conference 2025 (VinUniversity)
+        - Australia-Vietnam Strategic Technologies Scholarship
         - Finalist — 2025 Quantum Global Industry Challenge (Connected DMV)
         - Finalist — IoT Challenge 2025 (FPT Software)
+        - Student Research Grant ($3,500) — VinUniversity (Lead, Smart Aquaculture)
     - year: 2024
       items:
         - Silver Medal — The University Physics Competition 2024
@@ -74,8 +82,22 @@
     - year: 2023
       items:
         - 100% Talent Scholarship — VinUniversity (2023–2027)
-        - 2nd Prize — National Physics Olympiad (Vietnam)
+        - Second Prize — National Physics Olympiad (Vietnam)
+        - Gold Medal — High School Olympiad (2021–2022)
         - 5th Place Worldwide — Thomas Jefferson Physics Olympiad
+
+- title: Certificates and Courses
+  type: list
+  contents:
+    - "<strong>Specializations:</strong> Digital Signal Processing (EPFL/Coursera), Neural Networks and Deep Learning (DeepLearning.AI/Coursera), Wireless Communications (Yonsei Univ.)"
+    - "<strong>Courses:</strong> Open RAN 101, Quantum 101, Introduction to Optimization"
+
+- title: Professional Activities
+  type: list
+  contents:
+    - "<strong>Technical Program Committee (TPC):</strong> 2026 RIVF International Conference on Computing and Communication Technologies"
+    - "<strong>Invited Reviewer:</strong> IEEE Transactions on Cognitive Communications and Networking"
+    - "<strong>Invited Reviewer:</strong> IEEE International Conference on Advanced Technologies for Communications (ATC) 2026"
 
 - title: Skills
   type: nested_list
@@ -86,6 +108,6 @@
     - title: Frameworks & AI
       items:
         - PyTorch, TensorFlow, Scikit-learn, OpenCV, PennyLane, Qiskit
-    - title: Tools & Hardware
+    - title: Tools & Platforms
       items:
-        - Docker, Git, Vivado, Altium, Arduino, Raspberry Pi, Teensy 4.1, Linux
+        - Docker, Git, Vivado, Altium, PSpice, Arduino, Raspberry Pi, Linux, Teensy 4.1
