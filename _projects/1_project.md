@@ -6,6 +6,8 @@ img: assets/img/projects/aquaculture.png
 importance: 1
 category: research
 related_publications: true
+github: https://github.com/korobn0608/aquasense
+github_stars: korobn0608/aquasense
 ---
 
 An intelligent multi-sensory aquaculture monitoring and management system developed at the **[ICCL Lab](https://icclabo.github.io/icc/), VinUniversity & Trinity College Dublin**. Funded by a **$3,500 Student Research Grant**.

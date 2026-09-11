@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - phucngvinuni/FISHER
   - phucngvinuni/CNNfrom_scratchcpp
   - phucngvinuni/NeuralNetworkCppfromScratch
   - korobn0608/aquasense

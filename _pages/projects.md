@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: "Research prototypes, hardware systems, and open-source software implementations."
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, work]
 horizontal: false
 ---
 

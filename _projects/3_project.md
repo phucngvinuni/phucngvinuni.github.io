@@ -5,6 +5,8 @@ description: "C++, C, Mathematics — Completed"
 img: assets/img/projects/nn_scratch.png
 importance: 3
 category: work
+github: https://github.com/phucngvinuni/CNNfrom_scratchcpp
+github_stars: phucngvinuni/CNNfrom_scratchcpp
 ---
 
 Implemented a **Convolutional Neural Network (CNN)** in C++ and a **Feedforward Neural Network** in C for MNIST digit classification, without using any external machine learning libraries.
