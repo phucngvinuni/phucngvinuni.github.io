@@ -286,10 +286,10 @@
       "url": "https://phucngvinuni.github.io/projects/4_project/"
     },
     {
-      "name": "Smart Aquaculture IoT System",
-      "description": "Multi-sensory IoT node (water quality, camera, hydrophone) with multimodal AI and LLM RAG for intelligent pond monitoring. Funded by $3,500 grant.",
+      "name": "Smart Marine Aquaculture – Nha Trang",
+      "description": "Field-deployable embedded systems, underwater imaging, bioacoustics, and 5-parameter water-quality sensing infrastructure. Funded by ,500 grant.",
       "startDate": "2024-10-01",
-      "url": "https://github.com/korobn0608/aquasense"
+      "url": "https://phucngvinuni.github.io/projects/1_project/"
     },
     {
       "name": "Teensy 4.1 Flight Controller Firmware",
