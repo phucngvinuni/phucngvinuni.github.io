@@ -44,8 +44,8 @@ The structural chassis underwent multiple iterative design phases to balance mec
 ### Failure Analysis of Initial Prototypes
 
 Early 3D-printed iterations revealed critical mechanical failure modes:
-- **Iteration 1:** The interior bay was too compact ($< 50\,\text{mm}$ clearance) to house the power distribution board and ESCs cleanly.
-- **Iteration 2:** While providing sufficient space, thin structural arm walls ($4\,\text{mm}$) and low infill density ($20\%$) fractured during motor thrust oscillations and drop impacts.
+- **Iteration 1:** The interior bay was too compact (< 50 mm clearance) to house the power distribution board and ESCs cleanly.
+- **Iteration 2:** While providing sufficient space, thin structural arm walls (4 mm) and low infill density (20%) fractured during motor thrust oscillations and drop impacts.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -57,9 +57,9 @@ Early 3D-printed iterations revealed critical mechanical failure modes:
 
 To systematically evaluate material resilience before fabrication, the team conducted comprehensive **ANSYS Finite Element Analysis (FEA)** comparing Poly-Lactic Acid (PLA) polymer against woven Carbon Fiber composite:
 
-1. **Drop Test Simulation:** Evaluated dynamic shock wave propagation from an inverted $1.5\,\text{m}$ impact. The integration of landing legs was shown to distribute impact reaction forces across the perimeter, shielding sensitive electronics (Teensy MCU, IMU) from peak deceleration shock.
-2. **ANSYS Static Loading Simulation:** Under full motor thrust ($4\times 800\,\text{g}$), Carbon Fiber exhibited maximum Von-Mises stress of only $10.03\,\text{MPa}$ with negligible elastic strain ($0.00033$), whereas PLA experienced $42.17\,\text{MPa}$ stress. While Carbon Fiber provided superior stiffness-to-weight ratio, high-infill PLA ($60\%$, $8\,\text{mm}$ thickness) proved mechanically sufficient for rapid prototyping.
-3. **SolidWorks Topographic Optimization:** Performed material removal algorithms to identify low-stress regions, carving aerodynamic weight-reduction cutouts that cut frame mass by $28\%$.
+1. **Drop Test Simulation:** Evaluated dynamic shock wave propagation from an inverted 1.5 m impact. The integration of landing legs was shown to distribute impact reaction forces across the perimeter, shielding sensitive electronics (Teensy MCU, IMU) from peak deceleration shock.
+2. **ANSYS Static Loading Simulation:** Under full motor thrust (4 × 800 g), Carbon Fiber exhibited maximum Von-Mises stress of only 10.03 MPa with negligible elastic strain (0.00033), whereas PLA experienced 42.17 MPa stress. While Carbon Fiber provided superior stiffness-to-weight ratio, high-infill PLA (60%, 8 mm thickness) proved mechanically sufficient for rapid prototyping.
+3. **SolidWorks Topographic Optimization:** Performed material removal algorithms to identify low-stress regions, carving aerodynamic weight-reduction cutouts that cut frame mass by 28%.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -69,7 +69,7 @@ To systematically evaluate material resilience before fabrication, the team cond
 
 ### Final CAD Geometry & Dimensions
 
-The final design utilizes a **$178.73\,\text{mm}$ diagonal wheelbase** Quad-X configuration, manufactured via a hybrid combination of CNC-milled $3\,\text{mm}$ Carbon Fiber base plates and reinforced $8\,\text{mm}$, $60\%$-infill 3D-printed motor arms:
+The final design utilizes a **178.73 mm diagonal wheelbase** Quad-X configuration, manufactured via a hybrid combination of CNC-milled 3 mm Carbon Fiber base plates and reinforced 8 mm, 60%-infill 3D-printed motor arms:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -87,11 +87,11 @@ The final design utilizes a **$178.73\,\text{mm}$ diagonal wheelbase** Quad-X co
 
 ## 2. Propulsion & Power Electronics Integration
 
-The electrical propulsion subsystem was engineered to deliver a thrust-to-weight ratio $> 2.2:1$:
+The electrical propulsion subsystem was engineered to deliver a thrust-to-weight ratio > 2.2:1:
 
-- **Motors:** Four **RS2205 2300kV** Brushless DC (BLDC) outrunner motors capable of delivering up to $1,024\,\text{g}$ maximum thrust each on 5045 bullnose propellers.
+- **Motors:** Four **RS2205 2300kV** Brushless DC (BLDC) outrunner motors capable of delivering up to 1,024 g maximum thrust each on 5045 bullnose propellers.
 - **Speed Controllers:** Four **30A Electronic Speed Controllers (ESCs)** running BLHeli firmware, receiving low-latency PWM drive signals from the Teensy flight controller.
-- **Power Management:** A 3S $11.1\,\text{V}$ LiPo battery delivers high discharge current (up to 75C). High-power ground loops and motor back-EMF spikes are decoupled using a low-ESR electrolytic capacitor bank and dedicated LC filtering for the flight computer.
+- **Power Management:** A 3S 11.1 V LiPo battery delivers high discharge current (up to 75C). High-power ground loops and motor back-EMF spikes are decoupled using a low-ESR electrolytic capacitor bank and dedicated LC filtering for the flight computer.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -142,11 +142,15 @@ To achieve robust attitude estimation, we implemented the **Madgwick Orientation
 
 Attitude control is achieved through three independent **Proportional-Integral-Derivative (PID)** control loops operating on the Roll, Pitch, and Yaw axes at **400Hz**:
 
-$$\displaystyle u(t) = K_p \, e(t) + K_i \int_0^t e(\tau)\,d\tau + K_d \, \frac{de(t)}{dt}$$
 
-- **Proportional ($K_p$):** Provides instantaneous restoring torque proportional to orientation error.
-- **Integral ($K_i$):** Eliminates steady-state attitude offsets caused by minor battery mass asymmetry or aerodynamic drag.
-- **Derivative ($K_d$):** Dampens high-speed rotational oscillations and prevents angular overshoot.
+$$
+u(t) = K_p \, e(t) + K_i \int_0^t e(\tau)\,d\tau + K_d \, \frac{de(t)}{dt}
+$$
+
+
+- **Proportional (Kp):** Provides instantaneous restoring torque proportional to orientation error.
+- **Integral (Ki):** Eliminates steady-state attitude offsets caused by minor battery mass asymmetry or aerodynamic drag.
+- **Derivative (Kd):** Dampens high-speed rotational oscillations and prevents angular overshoot.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -159,7 +163,7 @@ $$\displaystyle u(t) = K_p \, e(t) + K_i \int_0^t e(\tau)\,d\tau + K_d \, \frac{
 
 ### Real-Time Loop Timing
 
-Benchmarking confirmed a sustained loop execution frequency of **422Hz** (cycle time $T_{\text{loop}} = 2.37\,\text{ms}$), well exceeding the 400Hz target to guarantee deterministic motor update deadlines with zero jitter:
+Benchmarking confirmed a sustained loop execution frequency of **422Hz** (cycle time T_loop = 2.37 ms), well exceeding the 400Hz target to guarantee deterministic motor update deadlines with zero jitter:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -171,10 +175,10 @@ Benchmarking confirmed a sustained loop execution frequency of **422Hz** (cycle 
 
 ## 5. Experimental Validation on Test Jig
 
-Before free-flight testing, the drone was constrained to an instrumented multi-axis test stand to tune PID gains ($K_p, K_i, K_d$) and evaluate step-response settling times:
+Before free-flight testing, the drone was constrained to an instrumented multi-axis test stand to tune PID gains (Kp, Ki, Kd) and evaluate step-response settling times:
 
-- **Roll & Yaw Step Responses:** Tested disturbance rejection by applying sudden rotational impulses. The controller returned to level within $< 180\,\text{ms}$ with zero steady-state oscillation.
-- **Pitch Dynamic Tracking:** Demonstrated tight setpoint tracking across rapid pilot input transitions from $-20^\circ$ to $+20^\circ$.
+- **Roll & Yaw Step Responses:** Tested disturbance rejection by applying sudden rotational impulses. The controller returned to level within < 180 ms with zero steady-state oscillation.
+- **Pitch Dynamic Tracking:** Demonstrated tight setpoint tracking across rapid pilot input transitions from -20° to +20°.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

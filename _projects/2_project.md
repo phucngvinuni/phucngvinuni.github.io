@@ -42,7 +42,7 @@ WinCart transforms traditional supermarket shopping into a hands-free, intellige
 Modern hypermarkets present significant customer friction:
 - **Shopper Navigation Fatigue:** Customers waste an estimated 20–30% of their in-store shopping time searching for items across dense multi-aisle layouts.
 - **GPS-Denied Indoor Environments:** Satellite GPS signals cannot penetrate commercial building structures, necessitating dedicated indoor positioning systems (IPS).
-- **Existing Cart Complexities:** Solutions like Amazon Dash Cart rely on heavy, expensive multi-camera arrays and weight sensors ($5,000+ per cart), making wide deployment economically unviable for Southeast Asian retail markets.
+- **Existing Cart Complexities:** Solutions like Amazon Dash Cart rely on heavy, expensive multi-camera arrays and weight sensors (\$5,000+ per cart), making wide deployment economically unviable for Southeast Asian retail markets.
 
 WinCart addresses this with an ultra-cost-effective architecture: low-cost Bluetooth Low Energy (BLE) infrastructure coupled with on-cart edge intelligence.
 
@@ -96,8 +96,12 @@ Rather than relying on noisy geometric distance formulas, WinCart employs **Deep
 
 1. **Offline Training Phase:**  
    A deep neural network (Triplet Network) is trained on multi-beacon RSSI fingerprint vectors using **Triplet Margin Loss**:
-   $$\mathcal{L}(a, p, n) = \max(0, \,\mathcal{D}(f(a), f(p)) - \mathcal{D}(f(a), f(n)) + \alpha)$$
-   Where $a$ is an anchor fingerprint, $p$ is a positive sample from the same spatial cell, $n$ is a negative sample from a distant cell, and $\alpha$ is the enforcement margin.
+   
+$$
+\mathcal{L}(a, p, n) = \max\Big(0, \,\mathcal{D}\big(f(a), f(p)\big) - \mathcal{D}\big(f(a), f(n)\big) + \alpha\Big)
+$$
+
+   Where a is an anchor fingerprint, p is a positive sample from the same spatial cell, n is a negative sample from a distant cell, and α is the enforcement margin.
 2. **Embedding Space:**  
    The network learns to project noisy high-dimensional RSSI vectors into an invariant low-dimensional embedding space where spatial proximity is preserved regardless of RF multipath distortions.
 3. **Online Inference (KNN):**  
@@ -167,7 +171,7 @@ To support rapid rollout across diverse retail branches, the team engineered a v
 
 | Feature | Computer Vision Carts (Amazon Dash) | Retail Mobile Apps | **WinCart** |
 | :--- | :--- | :--- | :--- |
-| **Unit Hardware Cost** | Extremely High ($5,000+) | Low (BYOD) | **Low (~$150/cart)** |
+| **Unit Hardware Cost** | Extremely High (\$5,000+) | Low (BYOD) | **Low (~\$150/cart)** |
 | **Positioning Accuracy** | Visual Odometry (Drift-prone) | Cellular/Wi-Fi (3–5m error) | **BLE Triplet Metric Learning (< 1m)** |
 | **User Experience** | Heavy, restricted cart design | Small phone screen, battery drain | **Dedicated cart touchscreen + Voice AI** |
 | **Edge AI Assistance** | Barcode/Vision checkout only | Cloud chatbot (network dependent) | **Local LLM (Zero cloud latency)** |

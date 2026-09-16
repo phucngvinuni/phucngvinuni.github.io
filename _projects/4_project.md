@@ -12,7 +12,7 @@ github_stars: phucngvinuni/DAC-JSCC
 
 A hardware-in-the-loop **Deep Joint Source-Channel Coding (Deep JSCC)** Visible Light Communication (VLC) system developed for **ELEC4010: Introduction to Microelectronics** at VinUniversity.
 
-Unlike traditional digital communication that transmits raw binary bitstreams (0s and 1s) over discrete modulation schemes, this system compresses high-dimensional images into semantic latent representations ($k = 16$) using a Deep Convolutional Autoencoder and transmits them directly as **analog light intensities** via a custom-built 8-bit R-2R resistor ladder DAC, op-amp buffer, and BJT emitter-follower driver.
+Unlike traditional digital communication that transmits raw binary bitstreams (0s and 1s) over discrete modulation schemes, this system compresses high-dimensional images into semantic latent representations (k = 16) using a Deep Convolutional Autoencoder and transmits them directly as **analog light intensities** via a custom-built 8-bit R-2R resistor ladder DAC, op-amp buffer, and BJT emitter-follower driver.
 
 <div class="project-meta-box p-3 mb-4 rounded" style="background-color: var(--global-card-bg-color, #f8f9fa); border-left: 4px solid var(--global-theme-color, #0076df);">
   <div class="row text-center text-md-left">
@@ -57,11 +57,11 @@ The video below demonstrates the complete end-to-end hardware-in-the-loop system
 ## 1. Motivation: Analog Deep JSCC vs. Brittle Digital Transmission
 
 Traditional Visible Light Communication (VLC / Li-Fi) systems transmit digitized bits using binary modulation techniques such as On-Off Keying (OOK) or Pulse Amplitude Modulation (PAM). For image transmission, raw pixels are digitized into hundreds or thousands of bytes:
-- Transmitting a single $28 \times 28$ grayscale image (e.g., MNIST) requires **784 bytes (6,272 bits)**.
+- Transmitting a single 28 × 28 grayscale image (e.g., MNIST) requires **784 bytes (6,272 bits)**.
 - In low Signal-to-Noise Ratio (SNR) or turbulent optical conditions, a single corrupted bit can cause catastrophic bit errors or desynchronization (*the "cliff effect"*).
 
 **The Deep JSCC Paradigm:**  
-Rather than separating source compression and channel coding, our system uses a **Deep Convolutional Autoencoder** to jointly compress the source image and encode it into continuous semantic features ($k = 16$). Each feature is mapped directly to a continuous analog light intensity. When channel noise occurs, the reconstructed image experiences smooth, graceful degradation rather than total structural failure.
+Rather than separating source compression and channel coding, our system uses a **Deep Convolutional Autoencoder** to jointly compress the source image and encode it into continuous semantic features (k = 16). Each feature is mapped directly to a continuous analog light intensity. When channel noise occurs, the reconstructed image experiences smooth, graceful degradation rather than total structural failure.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -77,8 +77,8 @@ Rather than separating source compression and channel coding, our system uses a 
 | **Payload Size** | 784 bytes | **16 analog symbols** |
 | **Channel Symbols** | 6,272 bits (1 byte/pixel) | **16 physical optical pulses** |
 | **Noise Resilience** | Brittle (single bit-error corrupts pixel) | **Robust (graceful degradation)** |
-| **Transmission Speed** | $1\times$ (Baseline) | **~50&times; faster** |
-| **Bandwidth Savings** | Baseline ($0\%$) | **~98% compression** |
+| **Transmission Speed** | 1× (Baseline) | **~50&times; faster** |
+| **Bandwidth Savings** | Baseline (0%) | **~98% compression** |
 
 ---
 
@@ -95,13 +95,17 @@ The hardware layer converts parallel 8-bit digital words from an Arduino into pr
 ### Circuit Topology & Stage Breakdown
 
 1. **8-bit R-2R Ladder Network:**  
-   Constructed from precision $1\%$ metal film resistors ($R = 1\,\text{k}\Omega, 2R = 2\,\text{k}\Omega$). Driven by 8 digital GPIO pins ($0\text{--}5\,\text{V}$), the ladder produces 256 discrete analog voltage steps:
-   $$\displaystyle V_{\text{DAC}} = V_{\text{ref}} \sum_{i=0}^{7} \frac{b_i}{2^{8-i}} = 5\,\text{V} \times \frac{D}{255}$$
-   with an ideal step size (LSB) of $V_{\text{LSB}} = \frac{5\,\text{V}}{256} \approx 19.53\,\text{mV}$.
+   Constructed from precision 1% metal film resistors (R = 1 kΩ, 2R = 2 kΩ). Driven by 8 digital GPIO pins (0–5 V), the ladder produces 256 discrete analog voltage steps:
+   
+$$
+V_{\text{DAC}} = V_{\text{ref}} \sum_{i=0}^{7} \frac{b_i}{2^{8-i}} = 5\,\text{V} \times \frac{D}{255}
+$$
+
+   with an ideal step size (LSB) of V_LSB = 5 V / 256 ≈ 19.53 mV.
 2. **LM358 Op-Amp Voltage Follower (Buffer):**  
-   The raw output impedance of an R-2R ladder equals $R = 1\,\text{k}\Omega$. Connecting a load directly causes substantial voltage sag. Feeding $V_{\text{DAC}}$ into an LM358 op-amp configured as a unity-gain buffer ($V_{\text{out}} = V_{\text{in}}$) provides near-infinite input impedance ($> 1\,\text{M}\Omega$) to prevent loading, and low output impedance to drive the subsequent stage.
+   The raw output impedance of an R-2R ladder equals R = 1 kΩ. Connecting a load directly causes substantial voltage sag. Feeding $V_{\text{DAC}}$ into an LM358 op-amp configured as a unity-gain buffer ($V_{\text{out}} = V_{\text{in}}$) provides near-infinite input impedance (> 1 MΩ) to prevent loading, and low output impedance to drive the subsequent stage.
 3. **2N2222 BJT Emitter-Follower LED Driver:**  
-   Standard op-amps cannot supply high continuous drive currents. The buffered analog voltage drives the base of a 2N2222 NPN BJT in emitter-follower configuration. With current gain $\beta \approx 100\text{--}300$, the emitter supplies proportional current through a high-brightness Blue LED.
+   Standard op-amps cannot supply high continuous drive currents. The buffered analog voltage drives the base of a 2N2222 NPN BJT in emitter-follower configuration. With current gain β ≈ 100–300, the emitter supplies proportional current through a high-brightness Blue LED.
 4. **Isolated Optical Channel & TEMT6000 Receiver:**  
    The transmitter LED and TEMT6000 phototransistor receiver are aligned within a light-shielded cylindrical optical tube to eliminate ambient room lighting interference. The sensor's analog output is sampled by the receiver's ADC.
 
@@ -138,9 +142,9 @@ Real optical hardware deviates substantially from textbook linear models. Accura
 To model the physical link, we collected an empirical dataset of **5,000 samples** (`final_merged_dataset.csv`) sweeping DAC input values from $0$ to $255$ and recording photodetector ADC responses:
 
 1. **Non-Linear Transfer Characteristic:**  
-   The Blue LED requires a threshold voltage ($V_{\text{th}} \approx 2.7\,\text{V}$) before conducting significant current. Below $D \approx 120$, the LED emits negligible light (dead zone). At high DAC values ($D > 180$), current saturation and phototransistor non-linearity cause response flattening.
+   The Blue LED requires a threshold voltage (V_th ≈ 2.7 V) before conducting significant current. Below D ≈ 120, the LED emits negligible light (dead zone). At high DAC values (D > 180), current saturation and phototransistor non-linearity cause response flattening.
 2. **Heteroscedastic Hardware Noise:**  
-   Analysis revealed that noise is **heteroscedastic** &mdash; the standard deviation $\sigma_{\text{noise}}$ is not constant but scales with optical intensity (shot noise and optical fluctuations dominate at higher illumination).
+   Analysis revealed that noise is **heteroscedastic** &mdash; the standard deviation σ_noise is not constant but scales with optical intensity (shot noise and optical fluctuations dominate at higher illumination).
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -176,7 +180,7 @@ Oscilloscope measurements across multiple dynamic input trials confirmed high si
 
 To enable gradient-based backpropagation through the physical channel:
 1. **Channel Linearization (`createlinear.py`):**  
-   We isolated the monotonic, high-sensitivity operating regime ($D \in [140, 170]$ corresponding to $V \in [2.74\,\text{V}, 3.33\,\text{V}]$) and constructed an optimal mapping table (`good_dac_map.json`).
+   We isolated the monotonic, high-sensitivity operating regime (D ∈ [140, 170] corresponding to V ∈ [2.74 V, 3.33 V]) and constructed an optimal mapping table (`good_dac_map.json`).
 2. **Differentiable Channel Layer (`real_channel.py` / `trainlinear.py`):**  
    During training, the PyTorch autoencoder uses a differentiable hardware-in-the-loop simulation layer that applies the empirical transfer function and heteroscedastic noise distribution. This allows the neural network to learn feature encodings that are inherently robust to optical non-linearities and physical noise.
 
@@ -190,7 +194,7 @@ To enable gradient-based backpropagation through the physical channel:
 
 ## 4. Experimental Results & Performance Evaluation
 
-The end-to-end system was evaluated on the MNIST dataset using a latent dimension of $k = 16$.
+The end-to-end system was evaluated on the MNIST dataset using a latent dimension of k = 16.
 
 ### Semantic Reconstruction Quality
 
@@ -211,8 +215,8 @@ Despite compressing 784 image pixels into just 16 analog light pulses (**98% com
 ### Power Consumption Analysis
 
 To measure current consumption through the R-2R network without breaking the circuit, the **Voltage Drop method** was applied across individual branches:
-- Total current consumption of the R-2R ladder remained minimal at approximately **$1.69\,\text{mA}$** during peak operation.
-- The emitter follower efficiently sourced current directly from the $5\,\text{V}$ rail, preventing any loading or thermal drift on the precision ladder resistors.
+- Total current consumption of the R-2R ladder remained minimal at approximately **1.69 mA** during peak operation.
+- The emitter follower efficiently sourced current directly from the 5 V rail, preventing any loading or thermal drift on the precision ladder resistors.
 
 ---
 
