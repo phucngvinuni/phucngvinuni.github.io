@@ -34,7 +34,7 @@ Unlike traditional digital communication that transmits raw binary bitstreams (0
 > **Project Links & Documentation:**
 > - **GitHub Repository:** [phucngvinuni/DAC-JSCC](https://github.com/phucngvinuni/DAC-JSCC)
 > - **Download Project Report:** [Full 18-Page Technical Report (PDF)]({{ '/assets/pdf/DAC_JSCC_Project_Report.pdf' | relative_url }})
-> - **Team:** Nguyen Hong Phuc & Vo Viet Duc (VinUniversity)
+> - **Team:** Nguyen Hong Phuc (Lead & Design) & Vo Viet Duc (Hardware Assembly)
 
 ---
 
@@ -236,7 +236,7 @@ To measure current consumption through the R-2R network without breaking the cir
 - **Course:** ELEC4010 &mdash; Introduction to Microelectronics, Fall 2025
 - **Institution:** College of Engineering & Computer Science, VinUniversity
 - **Authors:**
-  - **Nguyen Hong Phuc** (System Architecture, Deep JSCC Autoencoder, Hardware-in-the-Loop Integration)
-  - **Vo Viet Duc** (Circuit Design, PSpice Simulation, Hardware Assembly)
+  - **Nguyen Hong Phuc** (System Architecture, Circuit Design, PSpice Simulation, Deep JSCC Autoencoder, Hardware-in-the-Loop Integration)
+  - **Vo Viet Duc** (Hardware Assembly)
 - **Supervising Faculty:** VinUniversity Microelectronics Faculty
 - **Source Code & Report:** [GitHub Repository](https://github.com/phucngvinuni/DAC-JSCC) &middot; [Download Report (PDF)]({{ '/assets/pdf/DAC_JSCC_Project_Report.pdf' | relative_url }})
