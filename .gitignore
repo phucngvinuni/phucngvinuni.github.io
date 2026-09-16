@@ -11,3 +11,7 @@ assets/libs/
 node_modules/
 vendor
 .idea
+*.zip
+/EM/
+/IPS Drone Frame Simulation Presentation/
+/_IoT Challenge 2025 - Semifinal Round/
