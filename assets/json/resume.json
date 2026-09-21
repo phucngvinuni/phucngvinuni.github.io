@@ -5,7 +5,7 @@
     "image": "",
     "email": "23phuc.nh@vinuni.edu.vn",
     "phone": "+84 326 060 805",
-    "url": "https://phucngvinuni.github.io/",
+    "url": "https://hongphucnguyen.id.vn/",
     "summary": "Electrical and Computer Engineering student at VinUniversity specializing in wireless sensing, signal processing, and AI/ML for physical-world perception. Research at HKU AIoT Lab and ICCL Lab (VinUni & Trinity College Dublin). Recipient of a $3,500 Student Research Grant. Seeking fully funded Ph.D. positions for Fall 2027.",
     "location": {
       "city": "Ha Noi",
@@ -283,25 +283,25 @@
       "name": "Deep JSCC for Visible Light Communication",
       "description": "Hardware-in-the-loop Deep JSCC transmitting semantic features via analog light intensity using custom 8-bit R-2R DAC. 98% compression on MNIST.",
       "startDate": "2026-01-01",
-      "url": "https://phucngvinuni.github.io/projects/4_project/"
+      "url": "https://hongphucnguyen.id.vn/projects/4_project/"
     },
     {
       "name": "Smart Marine Aquaculture – Nha Trang",
       "description": "Field-deployable embedded systems, underwater imaging, bioacoustics, and 5-parameter water-quality sensing infrastructure. Funded by ,500 grant.",
       "startDate": "2024-10-01",
-      "url": "https://phucngvinuni.github.io/projects/1_project/"
+      "url": "https://hongphucnguyen.id.vn/projects/1_project/"
     },
     {
       "name": "Quadcopter Design, FEA Simulation & Teensy 4.1 Flight Controller",
       "description": "Custom 400Hz C++ flight controller firmware on Teensy 4.1 with Madgwick IMU sensor fusion, ANSYS structural FEA, and Carbon Fiber CNC frame optimization.",
       "startDate": "2026-01-01",
-      "url": "https://phucngvinuni.github.io/projects/5_project/"
+      "url": "https://hongphucnguyen.id.vn/projects/5_project/"
     },
     {
       "name": "WinCart – Edge AI Smart Shopping Assistant & Indoor Navigation",
       "description": "Top 20 Finalist in IoT Challenge 2025 (FPT Software & Silicon Labs). Sub-meter BLE indoor positioning with Triplet Metric Learning + KNN, quantized on-device LLM on Raspberry Pi, and A* pathfinding.",
       "startDate": "2025-05-01",
-      "url": "https://phucngvinuni.github.io/projects/2_project/"
+      "url": "https://hongphucnguyen.id.vn/projects/2_project/"
     },
     {
       "name": "Neural Network From Scratch",
@@ -313,7 +313,7 @@
       "name": "1.8 GHz Microstrip Hybrid Ring (Rat-Race) Coupler",
       "description": "4-port RF passive microwave network on Rogers Kappa 438 substrate. Designed for LTE/GSM 1.8 GHz with full-wave EM simulation and VNA measurement.",
       "startDate": "2025-09-01",
-      "url": "https://phucngvinuni.github.io/projects/6_project/"
+      "url": "https://hongphucnguyen.id.vn/projects/6_project/"
     }
   ]
 }
