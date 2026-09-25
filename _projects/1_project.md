@@ -3,7 +3,7 @@ layout: page
 title: Smart Marine Aquaculture – Nha Trang
 description: "Field-deployable embedded systems, underwater imaging, bioacoustics, and 5-parameter water-quality sensing infrastructure."
 img: assets/img/projects/smart-aquaculture/smart-marine-aquaculture.jpg
-importance: 1
+importance: 2
 category: research
 related_publications: true
 github: https://github.com/korobn0608/aquasense

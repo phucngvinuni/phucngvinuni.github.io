@@ -3,7 +3,7 @@ layout: page
 title: Neural Network From Scratch
 description: "C++, C, Mathematics — Completed"
 img: assets/img/projects/nn_scratch.png
-importance: 3
+importance: 7
 category: work
 github: https://github.com/phucngvinuni/CNNfrom_scratchcpp
 github_stars: phucngvinuni/CNNfrom_scratchcpp

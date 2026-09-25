@@ -3,7 +3,7 @@ layout: page
 title: WinCart – Edge AI Smart Shopping Assistant & Indoor Navigation
 description: "Top 20 Finalist at IoT Challenge 2025 (FPT Software & Silicon Labs). Real-time BLE indoor positioning with Triplet Metric Learning + KNN, quantized on-device LLM on Raspberry Pi, and A* pathfinding."
 img: assets/img/projects/wincart/wincart_ui_map.jpg
-importance: 2
+importance: 3
 category: work
 related_publications: false
 ---

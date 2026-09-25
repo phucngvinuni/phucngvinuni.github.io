@@ -280,6 +280,12 @@
   ],
   "projects": [
     {
+      "name": "Privacy-Preserving Thermal Fall Detection on Edge AI",
+      "description": "Hardened real-time thermal fall detection pipeline on NVIDIA Jetson Orin (6.7 -> 20.8 FPS, latency < 0.3s), 91,800-frame multimodal dataset, and 10x false-positive rate reduction (40.7% to 1.5%) at HKU AIoT Lab.",
+      "startDate": "2026-06-01",
+      "url": "https://phucngvinuni.github.io/projects/7_project/"
+    },
+    {
       "name": "Deep JSCC for Visible Light Communication",
       "description": "Hardware-in-the-loop Deep JSCC transmitting semantic features via analog light intensity using custom 8-bit R-2R DAC. 98% compression on MNIST.",
       "startDate": "2026-01-01",
