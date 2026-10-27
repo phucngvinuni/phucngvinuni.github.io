@@ -1,6 +1,23 @@
 ---
 ---
 
+@misc{nguyen2026tinysenseplus,
+  abbr={alphaXiv},
+  bibtex_show={true},
+  title={TinySense+: Entropy-Aware CSI Compression for Scalable and Adaptive Wi-Fi Sensing},
+  author={Nguyen, Phuc H. and Gian, Toan and Do, Cuong D. and Chatzinotas, Symeon and Nguyen, Van-Dinh},
+  abstract={Wi-Fi human pose estimation requires high-rate channel state information (CSI), making communication a bottleneck when sensing is offloaded from resource-constrained devices. Effective compression must therefore preserve pose information while accommodating different communication budgets. We present TinySense+, an efficient compression framework for scalable Wi-Fi-based human sensing with entropy-aware transmission and test-time rate adjustment. The framework uses a vector-quantized generative adversarial network to encode CSI into discrete latent indices shared between an edge device and a server. A causal Transformer predicts conditional index probabilities for arithmetic coding, while a differentiable rate-distortion objective balances expected code length, CSI reconstruction, and pose accuracy. Prefix-conditioned latent completion reuses the entropy model to infer an omitted suffix, allowing the transmitted prefix length to change without retraining the encoder. We evaluate the framework on MM-Fi and WiPose datasets and prototype it on Raspberry Pi and Jetson Nano devices connected to an RTX 8000 server. On MM-Fi, entropy coding reduces the baseline cost from 8.00 to 4.82 bits per index without changing pose accuracy. Rate-aware training further reduces this cost to 3.21 bits per index and improves PCK20 from 41.21% to 44.01%. Results also show that transmitting half of the latent sequence retains a PCK20 of 40.36%. The evaluated operating range reaches a compression ratio of 5,840x with PCK20 = 37.92%. These results show that optimizing latent predictability alongside sensing fidelity provides a useful communication-accuracy trade-off for edge-server Wi-Fi sensing.},
+  year={2026},
+  month={October},
+  html={https://www.alphaxiv.org/abs/2610.tinysense-entropy-aware-wifi-sensing},
+  pdf={https://www.alphaxiv.org/abs/2610.tinysense-entropy-aware-wifi-sensing.pdf},
+  website={https://phucngvinuni.github.io/TinySense/},
+  code={https://github.com/phucngvinuni/TinySensePlus},
+  preview={tinysense.png},
+  selected={true},
+  note={Preprint}
+}
+
 @misc{nguyen2026cmambapose,
   abbr={Arxiv},
   bibtex_show={true},

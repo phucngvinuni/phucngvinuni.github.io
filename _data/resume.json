@@ -193,6 +193,13 @@
   ],
   "publications": [
     {
+      "name": "TinySense+: Entropy-Aware CSI Compression for Scalable and Adaptive Wi-Fi Sensing",
+      "publisher": "alphaXiv preprint",
+      "releaseDate": "2026-10-20",
+      "url": "https://www.alphaxiv.org/abs/2610.tinysense-entropy-aware-wifi-sensing",
+      "summary": "Preprint. Entropy-aware CSI compression combining VQGAN, causal Transformer entropy modeling, arithmetic coding, and prefix completion for scalable Wi-Fi human sensing."
+    },
+    {
       "name": "C-MambaPose: A Physics-Informed Complex Mamba Framework for Cross-Environment WiFi Human Pose Estimation",
       "publisher": "arXiv preprint",
       "releaseDate": "2026-06-01",

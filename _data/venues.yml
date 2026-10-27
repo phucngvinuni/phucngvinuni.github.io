@@ -28,3 +28,8 @@
 "Arxiv":
   url: https://arxiv.org/
   color: "#B31B1B"
+
+"alphaXiv":
+  url: https://www.alphaxiv.org/
+  color: "#123B42"
+

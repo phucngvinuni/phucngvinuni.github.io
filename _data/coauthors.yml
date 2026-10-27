@@ -28,6 +28,15 @@
   - firstname: ["Toan", "T."]
     url: https://scholar.google.com/
 
+"do":
+  - firstname: ["Cuong D.", "C. D.", "Danh Cuong", "Cuong"]
+    url: https://scholar.google.com/citations?user=_NdIi4AAAAAJ&hl=en
+
+"chatzinotas":
+  - firstname: ["Symeon", "S."]
+    url: https://scholar.google.com/citations?user=z6bA7qYAAAAJ
+
+
 "wanasekara":
   - firstname: ["S. H.", "Suranga", "S."]
     url: https://scholar.google.com/
