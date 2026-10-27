@@ -305,8 +305,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Nguyen]
-  first_name: [Phuc, "Hong Phuc", "H.-P.", "P. H."]
+  last_name: [Nguyen, "Nguyễn"]
+  first_name: [Phuc, "Hong Phuc", "H.-P.", "P. H.", "Phuc H.", "H. P.", "P.", "Phuc Hong", "Hồng Phúc", "Phúc H.", "H.-P"]
 
   style: apa
   locale: en
