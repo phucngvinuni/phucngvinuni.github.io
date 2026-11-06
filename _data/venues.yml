@@ -25,6 +25,10 @@
 "Major Revision":
   color: "#D97706"
 
+"arXiv":
+  url: https://arxiv.org/
+  color: "#B31B1B"
+
 "Arxiv":
   url: https://arxiv.org/
   color: "#B31B1B"
